@@ -1,0 +1,91 @@
+{
+  "categories": [
+    "All",
+    "Saving",
+    "Planning",
+    "Smart Spending",
+    "Habits & Goals"
+  ],
+  "items": [
+    {
+      "id": "gal-saving",
+      "title": "Saving Money & Wealth Preservation",
+      "category": "Saving",
+      "image": "assets/images/gal-1.jpg",
+      "tag": "PRESERVATION",
+      "summary": "Building resilient buffers before lifestyle upgrades.",
+      "description": "True financial freedom begins not with how much you earn, but how much you retain. Keeping a dedicated savings reserve shields you from high-interest debt and sudden emergencies.",
+      "takeaway": "Pay yourself first by reserving 20% on the day your income arrives."
+    },
+    {
+      "id": "gal-planning",
+      "title": "Proactive Budget Planning",
+      "category": "Planning",
+      "image": "assets/images/gal-2.jpg",
+      "tag": "STRATEGY",
+      "summary": "Assigning every rupee a purpose before spending begins.",
+      "description": "Proactive budget planning means writing down your expected income and allocating it across fixed essentials, flexible needs, and savings before the calendar month starts.",
+      "takeaway": "A written plan eliminates the mid-month stress of wondering where money went."
+    },
+    {
+      "id": "gal-coins",
+      "title": "Coins, Currency & Growth",
+      "category": "Saving",
+      "image": "assets/images/gal-3.jpg",
+      "tag": "COMPOUNDING",
+      "summary": "Small consistent sums multiply through disciplined habits.",
+      "description": "Financial success is rarely a single windfall event. It is the cumulative effect of small, repeated choices: choosing affordable transit, packing lunch, and saving regular sums.",
+      "takeaway": "Small daily savings of Rs. 100 accumulate to over Rs. 36,000 in a year."
+    },
+    {
+      "id": "gal-needs-wants",
+      "title": "Evaluating Needs vs Wants",
+      "category": "Smart Spending",
+      "image": "assets/images/gal-4.jpg",
+      "tag": "DISCERNMENT",
+      "summary": "Distinguishing survival essentials from fleeting desires.",
+      "description": "Conscious consumers recognize that marketing constantly dresses wants as urgent needs. Pausing to assess utility protects your cash flow without diminishing quality of life.",
+      "takeaway": "Apply the 24-hour waiting rule for any non-essential purchase."
+    },
+    {
+      "id": "gal-tracking",
+      "title": "Real-Time Expense Tracking",
+      "category": "Planning",
+      "image": "assets/images/gal-5.jpg",
+      "tag": "AWARENESS",
+      "summary": "Monitoring outflows to eliminate invisible cash drains.",
+      "description": "Tracking expenses does not restrict your freedom—it restores control. Looking at factual numbers reveals unseen subscription drains, dining surges, and impulse splurges.",
+      "takeaway": "Record expenses immediately using a simple digital ledger or notebook."
+    },
+    {
+      "id": "gal-goals",
+      "title": "Targeted Saving Goals",
+      "category": "Habits & Goals",
+      "image": "assets/images/gal-6.jpg",
+      "tag": "MILESTONES",
+      "summary": "Converting big financial dreams into bite-sized monthly steps.",
+      "description": "Whether saving for a laptop, certification course, or emergency buffer, breaking large numbers into monthly targets prevents demotivation and keeps momentum alive.",
+      "takeaway": "Attach a visual reminder and a specific date deadline to your savings target."
+    },
+    {
+      "id": "gal-spending",
+      "title": "Smart & Conscious Spending",
+      "category": "Smart Spending",
+      "image": "assets/images/gal-7.jpg",
+      "tag": "EFFICIENCY",
+      "summary": "Maximizing personal utility while minimizing unnecessary waste.",
+      "description": "Smart spending is about intentionality. Spending generously on health, education, and genuine priorities while ruthlessly cutting back on superficial status purchases.",
+      "takeaway": "Check student discounts, compare alternatives, and buy quality over quantity."
+    },
+    {
+      "id": "gal-roadmap",
+      "title": "Long-Term Financial Roadmap",
+      "category": "Habits & Goals",
+      "image": "assets/images/gal-8.jpg",
+      "tag": "VISION",
+      "summary": "Designing a steady progression toward zero debt and independence.",
+      "description": "Your student and early career phase sets the tone for your decades ahead. Mastering basic budgeting now guarantees you enter adulthood with confidence and zero bad debt.",
+      "takeaway": "Review and update your financial roadmap every semester or fiscal quarter."
+    }
+  ]
+}

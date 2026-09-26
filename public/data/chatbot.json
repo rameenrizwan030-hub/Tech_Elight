@@ -1,0 +1,85 @@
+{
+  "welcomeMessage": "Hello. I am BudgetBee, your educational personal finance assistant. Select any of the suggested inquiries below or type your own question regarding budgeting, expenses, savings, needs vs wants, or financial planning.",
+  "scopeExplanation": "I am BudgetBee, a student budgeting guide. I can help with fundamental financial topics such as income, fixed and variable expenses, savings strategies, needs vs wants, the 50/30/20 rule, setting saving goals, expense tracking, and common money pitfalls.",
+  "outOfScopeMessage": "I am BudgetBee, an educational budgeting assistant. I focus on student money habits, savings strategies, expense tracking, and personal finance fundamentals. How can I help you with your budget?",
+  "suggestedQuestions": [
+    {
+      "id": "q-income",
+      "question": "What is income?",
+      "keywords": ["income", "earn", "earning", "salary", "stipend", "gross", "net", "inflow", "take-home"],
+      "answer": "Income is money received from sources such as employment, scholarships, student allowances, or freelance projects. Always budget based on Net Take-Home Income (money received after mandatory deductions), not Gross Income. If your income fluctuates, use your conservative baseline monthly figure to build your core budget."
+    },
+    {
+      "id": "q-fixed-expenses",
+      "question": "What are fixed expenses?",
+      "keywords": ["fixed expenses", "fixed expense", "fixed costs", "fixed outflow", "rent", "tuition", "bills"],
+      "answer": "Fixed expenses are predictable financial obligations that remain consistent in cost and occur at regular intervals. Examples include apartment or hostel rent, semester tuition, fixed internet subscriptions, and public transit passes. Because fixed expenses are non-negotiable in the short term, budgeting around them first guarantees housing and academic security."
+    },
+    {
+      "id": "q-variable-expenses",
+      "question": "What are variable expenses?",
+      "keywords": ["variable expenses", "variable expense", "variable costs", "flexible spending", "groceries", "dining"],
+      "answer": "Variable expenses are day-to-day outlays that fluctuate based on your decisions and lifestyle. Examples include staple groceries, cafe coffee, dining out, recreation, and textbook supplies. Because variable expenses are flexible, they are the primary area where students can quickly trim spending to free up surplus cash for savings."
+    },
+    {
+      "id": "q-saving",
+      "question": "What is saving?",
+      "keywords": ["saving", "savings", "save", "save money", "reserve", "put aside", "stash"],
+      "answer": "Saving is the intentional practice of setting aside a portion of current income for future objectives, emergencies, or investments rather than spending it immediately. The most effective rule is 'Pay Yourself First': automatically transfer your target savings percentage into a dedicated secondary account on the day income arrives."
+    },
+    {
+      "id": "q-50-30-20",
+      "question": "What is the 50-30-20 rule?",
+      "keywords": ["50-30-20 rule", "50/30/20", "50 30 20", "50-30-20", "split", "percentage ratio", "budget rule"],
+      "answer": "The 50-30-20 rule is an intuitive budgeting framework that divides your take-home net income into three distinct buckets: 50% for essential Needs (housing, groceries, utilities, tuition), 30% for discretionary Wants (entertainment, dining out, hobbies), and 20% for Savings and debt prepayment."
+    },
+    {
+      "id": "q-needs-vs-wants",
+      "question": "What is the difference between needs and wants?",
+      "keywords": ["difference between needs and wants", "needs and wants", "needs vs wants", "need", "needs", "want", "wants"],
+      "answer": "Needs are mandatory essentials vital for basic survival, physical health, shelter, and active coursework (such as staple food, modest lodging, prescription medicine, and transit). Wants are discretionary choices that elevate comfort, entertainment, or status (such as daily specialty drinks, gaming subscriptions, and brand clothes). Applying a 24-hour waiting rule before purchasing a want prevents impulse spending."
+    },
+    {
+      "id": "q-create-budget",
+      "question": "How can I create a budget?",
+      "keywords": ["create a budget", "how can i create a budget", "start a budget", "make a budget", "build a budget", "beginner budget"],
+      "answer": "To create a student budget: 1) Record your guaranteed monthly net take-home income. 2) List all non-negotiable fixed expenses (rent, tuition, transit). 3) Immediately allocate at least 15% to 20% toward savings. 4) Set a weekly spending cap for variable food and leisure. 5) Use the BudgetBasics Expense Planner to monitor transactions weekly."
+    },
+    {
+      "id": "q-saving-goal",
+      "question": "How can I set a saving goal?",
+      "keywords": ["set a saving goal", "saving goal", "save for", "goal setting", "milestone", "target amount"],
+      "answer": "To set an actionable saving goal: 1) Define a clear purpose (e.g., Academic Laptop or Emergency Buffer). 2) Establish the exact target cost (e.g., Rs. 60,000). 3) Determine a manageable monthly contribution (e.g., Rs. 5,000). 4) Calculate the timeline (Rs. 60,000 / Rs. 5,000 = 12 months). Breaking high-level ambitions into monthly milestones sustains focus."
+    },
+    {
+      "id": "q-track-expenses",
+      "question": "How can I track expenses?",
+      "keywords": ["track expenses", "how can i track expenses", "tracking spending", "expense tracking", "log spending", "audit expenses"],
+      "answer": "To track expenses effectively: 1) Group spending into distinct categories (Food, Transit, Education, Bills, Entertainment). 2) Log transactions as they occur using our Interactive Expense Planner. 3) Review your total outlays at the end of each week to catch micro-spending leaks. 4) Compare actual spending against your initial 50/30/20 target to adjust behavior early."
+    },
+    {
+      "id": "q-common-mistakes",
+      "question": "What are common budgeting mistakes?",
+      "keywords": ["common budgeting mistakes", "money mistakes", "mistakes", "pitfalls", "debt trap", "overspending"],
+      "answer": "Common student budgeting mistakes include: 1) Spending first and attempting to save whatever remains at month-end. 2) Ignoring small repeated purchases (micro-transactions accumulate rapidly). 3) Leaving unused subscriptions on auto-renewal. 4) Relying on Buy Now Pay Later installments. 5) Operating without an initial liquid emergency cushion of Rs. 15,000 to Rs. 25,000."
+    }
+  ],
+  "faq": [
+    {
+      "keywords": ["emergency", "buffer", "crisis", "fund", "cushion"],
+      "topic": "Emergency Fund",
+      "answer": "An emergency cushion is dedicated liquid savings intended solely for urgent, unforeseen necessities like medical care or urgent hardware repairs. For students, starting with Rs. 15,000 to Rs. 25,000 prevents borrowing under stress."
+    },
+    {
+      "keywords": ["calculator", "tool", "planner", "503020"],
+      "topic": "Planning Tools",
+      "answer": "BudgetBasics provides client-side interactive tools in the Planning section: the 50/30/20 Rule Calculator, Comprehensive Cash Flow Auditor, Guiding Questions Diagnostic, and Interactive Expense Planner."
+    },
+    {
+      "keywords": ["hello", "hi", "hey", "greetings"],
+      "topic": "Greeting",
+      "answer": "Hello. I am BudgetBee, your educational budgeting assistant. Click any suggested question below or ask about income, expenses, savings, needs vs wants, or budgeting rules."
+    }
+  ],
+  "fallback": "I am BudgetBee, your budgeting guide. I can help with core financial education topics such as income, fixed and variable expenses, savings, the 50/30/20 rule, needs vs wants, setting goals, tracking expenses, and common money mistakes. Please select one of the suggested inquiries or ask about these topics."
+}

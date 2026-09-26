@@ -1,0 +1,279 @@
+{
+  "categories": [
+    "All",
+    "Saving",
+    "Planning",
+    "Habit and Goals",
+    "Mistakes",
+    "20-30-50 Rule",
+    "Needs and Wants"
+  ],
+  "visuals": {
+    "rule503020": {
+      "id": "visual-rule-503020",
+      "category": "20-30-50 Rule",
+      "title": "50-30-20 Allocation Framework",
+      "subtitle": "A simple visual way to divide your monthly take-home income.",
+      "image": "assets/images/visual-503020-chart.jpg",
+      "tagline": "Balance today, freedom tomorrow!",
+      "slices": [
+        {
+          "name": "Needs",
+          "percent": 50,
+          "color": "#583397",
+          "icon": "bi-house-door-fill",
+          "description": "Essential obligations: housing, food, transport, tuition, utilities, and healthcare."
+        },
+        {
+          "name": "Wants",
+          "percent": 30,
+          "color": "#7C4DFF",
+          "icon": "bi-cart-fill",
+          "description": "Discretionary lifestyle: dining out, streaming subscriptions, hobbies, shopping, and travel."
+        },
+        {
+          "name": "Savings",
+          "percent": 20,
+          "color": "#388E67",
+          "icon": "bi-piggy-bank-fill",
+          "description": "Wealth preservation: emergency fund buffer, sinking funds, and future financial milestones."
+        }
+      ]
+    },
+    "saving": {
+      "id": "visual-saving",
+      "category": "Saving",
+      "title": "Comprehensive Student Savings Ecosystem",
+      "subtitle": "Small steps equal big dreams. Discover how regular saving builds lasting peace of mind.",
+      "challenge": {
+        "title": "Monthly Saving Challenge",
+        "tagline": "Save a little, achieve a lot! 30 Days = Bigger Savings",
+        "milestones": [
+          { "day": "Day 1", "amount": 50, "label": "Starter Habit" },
+          { "day": "Day 7", "amount": 100, "label": "Weekly Boost" },
+          { "day": "Day 14", "amount": 150, "label": "Mid-Month Flow" },
+          { "day": "Day 21", "amount": 200, "label": "Sprint Target" },
+          { "day": "Day 30", "amount": 300, "label": "Milestone Victory" }
+        ],
+        "totalSavings": 4500
+      },
+      "benefits": {
+        "title": "How Saving Helps You?",
+        "tagline": "It's not just about money, it's about freedom.",
+        "points": [
+          { "icon": "bi-shield-check", "title": "Handles Emergencies", "desc": "Turns sudden unexpected repairs into minor bumps rather than debt." },
+          { "icon": "bi-bullseye", "title": "Achieves Your Goals", "desc": "Turns overwhelming future purchases into manageable monthly steps." },
+          { "icon": "bi-emoji-smile", "title": "Reduces Stress", "desc": "Eliminates late-night anxiety about month-end balances." },
+          { "icon": "bi-signpost-split", "title": "Gives You More Choices", "desc": "Allows you to say yes to career opportunities and personal growth." },
+          { "icon": "bi-bar-chart-line", "title": "Builds Financial Freedom", "desc": "Establishes long-term independence and investment readiness." }
+        ]
+      },
+      "goalsJar": {
+        "title": "Saving Goals Tracker",
+        "tagline": "Turn your dreams into achievable savings goals!",
+        "goals": [
+          { "name": "New Laptop", "saved": 15000, "target": 50000, "icon": "bi-laptop" },
+          { "name": "Travel", "saved": 8000, "target": 40000, "icon": "bi-airplane" },
+          { "name": "Course / Skills", "saved": 5000, "target": 30000, "icon": "bi-mortarboard" },
+          { "name": "Emergency Fund", "saved": 10000, "target": 50000, "icon": "bi-shield-shaded" }
+        ]
+      },
+      "studentTips": [
+        { "num": 1, "tip": "Track your expenses: Know exactly where your money goes every week." },
+        { "num": 2, "tip": "Avoid impulse buying: Think, wait 24 hours, then decide." },
+        { "num": 3, "tip": "Use the 50-30-20 rule: Balance needs, wants, and savings intentionally." },
+        { "num": 4, "tip": "Try a saving challenge: Even small daily amounts make a massive difference." },
+        { "num": 5, "tip": "Keep your goals in mind: Save for what truly matters to your future." }
+      ]
+    },
+    "planning": {
+      "id": "visual-planning",
+      "category": "Planning",
+      "title": "Monthly Budget Cycle Diagram",
+      "subtitle": "Plan • Spend • Track • Save • Grow. A continuous 6-phase money management roadmap.",
+      "image": "assets/images/visual-budget-cycle.jpg",
+      "phases": [
+        {
+          "step": 1,
+          "title": "Set Income",
+          "icon": "bi-cash-coin",
+          "action": "Calculate guaranteed take-home pay before planning allocations.",
+          "rule": "Only count net, reliable cash inflow for the month."
+        },
+        {
+          "step": 2,
+          "title": "Plan Budget",
+          "icon": "bi-journal-check",
+          "action": "Assign every rupee a role using the 50/30/20 benchmark guideline.",
+          "rule": "Allocate 50% needs, 30% wants, and reserve 20% savings first."
+        },
+        {
+          "step": 3,
+          "title": "Spend Wisely",
+          "icon": "bi-credit-card-2-front",
+          "action": "Prioritize essential payments and pause before discretionary splurges.",
+          "rule": "Apply the 24-Hour Rule for non-essential purchases over Rs. 2,000."
+        },
+        {
+          "step": 4,
+          "title": "Track Expenses",
+          "icon": "bi-clipboard-data",
+          "action": "Log daily transactions in your planner or expense tracker.",
+          "rule": "Record daily outflows to eliminate month-end budget surprises."
+        },
+        {
+          "step": 5,
+          "title": "Save Regularly",
+          "icon": "bi-piggy-bank",
+          "action": "Automate transfers into your emergency reserve and goal sinking funds.",
+          "rule": "Pay yourself first as soon as your income arrives."
+        },
+        {
+          "step": 6,
+          "title": "Review & Adjust",
+          "icon": "bi-graph-up-arrow",
+          "action": "Audit category spending patterns at month-end and refine your plan.",
+          "rule": "Celebrate milestones and adjust limits for seasonal demands."
+        }
+      ]
+    },
+    "habitAndGoals": {
+      "id": "visual-habit-goals",
+      "category": "Habit and Goals",
+      "title": "Money Habits & Multi-Tier Financial Goals",
+      "subtitle": "Small daily habits today create exponential financial freedom tomorrow.",
+      "habits": {
+        "title": "Core Money Habits",
+        "tagline": "Better habits + Better choices = A brighter future",
+        "items": [
+          { "title": "Track Your Spending", "desc": "Know where your money goes. Use a notebook or app to maintain clean daily records.", "icon": "bi-journal-text" },
+          { "title": "Save Regularly", "desc": "Even small consistent amounts compound into major security buffers over time.", "icon": "bi-piggy-bank" },
+          { "title": "Avoid Impulse Buying", "desc": "Pause, think, and ask: 'Do I really need this item right now?'", "icon": "bi-clock-history" },
+          { "title": "Pay Bills on Time", "desc": "Avoid punitive late penalty fees and build a spotless credit reputation.", "icon": "bi-calendar-check" },
+          { "title": "Invest in Yourself", "desc": "Learn high-income digital skills, read finance books, and earn certifications.", "icon": "bi-laptop" },
+          { "title": "Keep a Balance", "desc": "Enjoy your student life, but never forget to protect your baseline savings.", "icon": "bi-sliders" }
+        ]
+      },
+      "goals": {
+        "title": "Financial Goals Staircase",
+        "tagline": "Dream it • Plan it • Achieve it",
+        "tiers": [
+          {
+            "tier": 1,
+            "heading": "Short Term Goals",
+            "timeframe": "0 - 1 year",
+            "tag": "Quick wins, build momentum!",
+            "icon": "bi-lightning-charge-fill",
+            "items": [
+              "Save for a reliable study laptop",
+              "Pay off small personal debts",
+              "Build a starter Rs. 25,000 emergency fund"
+            ]
+          },
+          {
+            "tier": 2,
+            "heading": "Mid Term Goals",
+            "timeframe": "1 - 5 years",
+            "tag": "Plan for bigger dreams!",
+            "icon": "bi-mortarboard-fill",
+            "items": [
+              "Complete university degree debt-free",
+              "Enroll in specialized professional certification",
+              "Save for an educational travel experience"
+            ]
+          },
+          {
+            "tier": 3,
+            "heading": "Long Term Goals",
+            "timeframe": "5+ years",
+            "tag": "Build the life you desire!",
+            "icon": "bi-trophy-fill",
+            "items": [
+              "Save down-payment for own home",
+              "Achieve career and financial independence",
+              "Build an investment portfolio for lifelong security"
+            ]
+          }
+        ]
+      }
+    },
+    "mistakes": {
+      "id": "visual-mistakes",
+      "category": "Mistakes",
+      "title": "Common Student Money Mistakes & Solutions",
+      "subtitle": "Avoid these 5 common financial pitfalls • Build better habits • Secure your future.",
+      "image": "assets/images/mistakes-hd.jpg",
+      "cases": [
+        {
+          "num": 1,
+          "name": "Impulse Buying",
+          "tagline": "Want it now, regret it later.",
+          "icon": "bi-bag-x",
+          "scenario": "Riya went to the mall for stationery but bought expensive headphones because they were on sale.",
+          "correction": "Pause before buying. Wait 24 hours and ask yourself: 'Do I really need this?'",
+          "tip": "Think twice, buy smart!"
+        },
+        {
+          "num": 2,
+          "name": "Small Expenses Ignore Karna",
+          "tagline": "Chhoti cheezen, bada asar.",
+          "icon": "bi-cup-hot",
+          "scenario": "Ayaan ignored daily micro-expenses like coffee (Rs. 300), snacks (Rs. 200), and cold drinks (Rs. 150). By month-end, small daily items totaled Rs. 19,500!",
+          "correction": "Track every small expense in a planner or mobile app daily.",
+          "tip": "Small steps save big!"
+        },
+        {
+          "num": 3,
+          "name": "Late Payments",
+          "tagline": "Delay costs you extra.",
+          "icon": "bi-alarm",
+          "scenario": "Rizwan forgot to pay his student internet bill on time and had to pay punitive overdue charges.",
+          "correction": "Note due dates and set phone calendar reminders to pay on time and avoid extra fees.",
+          "tip": "On-time payments, zero stress!"
+        },
+        {
+          "num": 4,
+          "name": "Unused Subscriptions",
+          "tagline": "Paying for what you don't use.",
+          "icon": "bi-phone",
+          "scenario": "Sara was paying monthly for 3 streaming apps and a gym membership she hardly used.",
+          "correction": "Review all recurring subscriptions every 30 days. Cancel anything unused for over a month.",
+          "tip": "Use only what you need!"
+        },
+        {
+          "num": 5,
+          "name": "Without Planning Spending",
+          "tagline": "No plan = No control.",
+          "icon": "bi-slash-circle",
+          "scenario": "Usman received Rs. 10,000 monthly allowance and did not plan his spending. By mid-month, he had zero money left.",
+          "correction": "Make a simple 50-30-20 budget: Income - Needs - Wants - Savings. Plan before you spend.",
+          "tip": "Plan today, freedom tomorrow!"
+        }
+      ]
+    },
+    "needsAndWants": {
+      "id": "visual-needs-wants",
+      "category": "Needs and Wants",
+      "title": "Needs vs Wants 3D Visual Comparison",
+      "subtitle": "Both are a part of life, but not both are essential! Prioritise your needs, then enjoy your wants.",
+      "image": "assets/images/needs-wants-comparison.jpg",
+      "mascotMessage": "Needs keep you alive. Wants make life more fun! Prioritise your needs, then enjoy your wants!",
+      "needs": [
+        { "name": "Food", "desc": "Keeps you healthy and energetic with nutritious staple groceries.", "icon": "bi-egg-fried" },
+        { "name": "Shelter", "desc": "Provides safe housing, dorm rent, and essential stability.", "icon": "bi-house-heart" },
+        { "name": "Healthcare", "desc": "Prescription medicines, wellness care, and physical health.", "icon": "bi-heart-pulse" },
+        { "name": "Education", "desc": "Tuition fees, required textbooks, and course skill materials.", "icon": "bi-mortarboard" },
+        { "name": "Transport", "desc": "Transit card and safe commute to attend classes and job.", "icon": "bi-bus-front" },
+        { "name": "Utilities", "desc": "Basic comforts: electricity, clean water, and study internet.", "icon": "bi-lightning-charge" }
+      ],
+      "wants": [
+        { "name": "Shopping", "desc": "Designer trend outfits and impulse lifestyle retail therapy.", "icon": "bi-bag-heart" },
+        { "name": "Gaming", "desc": "Fun relaxation, console upgrades, and in-game microtransactions.", "icon": "bi-controller" },
+        { "name": "Dining Out", "desc": "Specialty cafes, restaurant deliveries, and takeout treats.", "icon": "bi-cup-straw" },
+        { "name": "Travel", "desc": "Holiday resort vacations and spontaneous weekend getaways.", "icon": "bi-airplane-engines" },
+        { "name": "Entertainment", "desc": "Concert tickets, cinema premieres, and entertainment packages.", "icon": "bi-film" },
+        { "name": "Luxury Items", "desc": "Flagship gadgets, smart accessories, and status upgrades.", "icon": "bi-gem" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+/* ==========================================================================
+   BUDGETBASICS - HERO SECTION
+   Financial Awareness, Modern Layout, Soft Lavender Gradients
+   ========================================================================== */
+
+.bb-hero-section {
+  padding: 160px 0 110px;
+  background-color: #FAF7FD;
+  background-image: 
+    linear-gradient(180deg, rgba(252, 249, 255, 0.88) 0%, rgba(247, 241, 253, 0.78) 45%, rgba(245, 238, 252, 0.88) 85%, #FFFFFF 100%),
+    url('../assets/images/hero-budget-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Centered Hero Container & Typography */
+.bb-hero-centered-wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.bb-hero-tagline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--bb-lav-300);
+  padding: 7px 18px;
+  border-radius: var(--bb-radius-pill);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--bb-lav-700);
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(122, 84, 196, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.bb-hero-tagline i {
+  color: var(--bb-lav-600);
+}
+
+.bb-hero-heading {
+  font-size: clamp(2.4rem, 4.8vw, 4.2rem);
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--bb-text-main);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+  max-width: 820px;
+}
+
+.bb-hero-heading em {
+  font-style: normal;
+  color: var(--lavender-primary);
+  display: inline-block;
+  font-weight: 800;
+}
+
+.bb-hero-lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #43395D;
+  max-width: 680px;
+  margin: 0 auto 36px auto;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+.bb-hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 38px;
+}
+
+.bb-hero-highlights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding-top: 14px;
+  flex-wrap: wrap;
+}
+
+.bb-hero-highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: #4C4266;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 14px;
+  border-radius: var(--bb-radius-pill);
+  border: 1px solid rgba(220, 210, 240, 0.7);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.bb-hero-highlight-item i {
+  color: var(--lavender-primary);
+  font-size: 1rem;
+}
+
+/* Hero Visual Composition */
+.bb-hero-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bb-hero-visual-frame {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  border-radius: var(--bb-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--bb-shadow-float);
+  border: 4px solid var(--bb-white);
+  transition: transform 0.4s ease;
+  aspect-ratio: 4 / 3.8;
+  background: var(--bb-lav-100);
+}
+
+.bb-hero-visual-frame:hover {
+  transform: translateY(-4px);
+}
+
+.bb-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Floating Glassmorphic Badges on Hero */
+.bb-float-badge {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(230, 222, 239, 0.9);
+  padding: 14px 18px;
+  border-radius: var(--bb-radius-lg);
+  box-shadow: 0 16px 36px rgba(56, 32, 97, 0.12);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  animation: bbFloat 5s ease-in-out infinite;
+}
+
+.bb-float-badge-1 {
+  top: 35px;
+  left: -28px;
+  animation-delay: 0s;
+}
+
+.bb-float-badge-2 {
+  bottom: 30px;
+  right: -20px;
+  animation-delay: 2.5s;
+}
+
+@keyframes bbFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.bb-float-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--bb-radius-md);
+  background: var(--bb-lav-100);
+  color: var(--bb-lav-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.bb-float-content span {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bb-text-subtle);
+}
+
+.bb-float-content strong {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--bb-text-main);
+  letter-spacing: -0.02em;
+}
+
+.bb-float-content small {
+  font-size: 0.75rem;
+  color: var(--bb-success);
+  font-weight: 600;
+}
+
+/* Ambient glow blobs */
+.bb-hero-glow-1 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(183, 159, 224, 0.3) 0%, transparent 70%);
+  top: 10%;
+  right: 5%;
+  border-radius: 50%;
+  filter: blur(40px);
+  z-index: 1;
+  pointer-events: none;
+}

@@ -1,0 +1,875 @@
+{
+  "categories": [
+    "All",
+    "Guidance",
+    "Introduction",
+    "Money Tips",
+    "Financial Resources",
+    "Learning",
+    "Family",
+    "Needs & Wants Visual",
+    "20/30/50 Budget Visual",
+    "Money Budget Cycle",
+    "Saving Challenges"
+  ],
+  "items": [
+    {
+      "id": "res-guidance-1",
+      "category": "Guidance",
+      "type": "BLUEPRINT",
+      "title": "Build Your First Budget: Step-by-Step Architecture",
+      "description": "Establish a baseline money blueprint by categorizing predictable cash inflows and standardizing fixed student obligations. Master how to allocate funds before the calendar month begins.",
+      "image": "assets/images/resources/res-1.jpg",
+      "keyTakeaway": "Pre-planning cash flow eliminates mid-month shortfalls and reduces unnecessary debt reliance.",
+      "tips": "Write down fixed commitments on the 1st of every month to establish your available spending ceiling.",
+      "content": "A successful student budget does not restrict life; it provides clarity and freedom. By identifying your exact non-negotiable living obligations first, you can spend guilt-free from your discretionary allocation without compromising semester tuition or rent.",
+      "tags": [
+        "Guidance",
+        "Budgeting",
+        "Planning",
+        "Student Finance"
+      ],
+      "keywords": [
+        "build budget",
+        "first budget",
+        "budget architecture",
+        "step by step"
+      ],
+      "date": "2026-02-15"
+    },
+    {
+      "id": "res-guidance-2",
+      "category": "Guidance",
+      "type": "HABIT GUIDE",
+      "title": "How to Track Your Daily Spending Without Burnout",
+      "description": "Learn lightweight tracking techniques using digital logs or receipt batches that take under 90 seconds a day. Eliminate the friction that causes students to abandon expense tracking.",
+      "image": "assets/images/resources/res-2.jpg",
+      "keyTakeaway": "Consistency matters more than perfection; logging daily micro-expenses builds automatic financial intuition.",
+      "tips": "Set a daily phone reminder at 9:00 PM to record today's receipts in under two minutes.",
+      "content": "Many students fail at budgeting because their tracking systems are overly complex. Simple batching and category approximations produce 95% of the benefits with a fraction of the mental fatigue.",
+      "tags": [
+        "Guidance",
+        "Expense Tracking",
+        "Habits",
+        "Daily Routine"
+      ],
+      "keywords": [
+        "track spending",
+        "expense tracking",
+        "avoid burnout",
+        "daily expenses"
+      ],
+      "date": "2026-02-18"
+    },
+    {
+      "id": "res-guidance-3",
+      "category": "Guidance",
+      "type": "GOAL STRATEGY",
+      "title": "Set Realistic Financial Goals: The SMART Milestone Method",
+      "description": "Transform vague ambitions like 'saving more' into time-bound milestones with calculated monthly deposits. Bridge the gap between student allowances and significant equipment purchases.",
+      "image": "assets/images/resources/res-3.jpg",
+      "keyTakeaway": "Breaking targets into weekly automated quotas boosts savings milestone completion by over 70%.",
+      "tips": "Pair each savings goal with a visual progress bar or tracker to maintain emotional momentum.",
+      "content": "A goal without a timeline is merely a wish. Specifying exact amounts, target deadlines, and weekly required contributions transforms daunting financial hurdles into manageable daily choices.",
+      "tags": [
+        "Guidance",
+        "Goals",
+        "Milestones",
+        "SMART"
+      ],
+      "keywords": [
+        "financial goals",
+        "realistic goals",
+        "smart goals",
+        "milestone planning"
+      ],
+      "date": "2026-02-22"
+    },
+    {
+      "id": "res-intro-1",
+      "category": "Introduction",
+      "type": "ORIENTATION",
+      "title": "Understanding Personal Finance: The Modern Student Foundation",
+      "description": "Demystify personal money management through core literacy concepts: cash flow velocity, compound interest, and debt avoidance. Lay the bedrock for lifelong wealth resilience.",
+      "image": "assets/images/resources/res-4.jpg",
+      "keyTakeaway": "Money management is a learnable skill, not an innate trait; early habits shape decades of financial security.",
+      "tips": "Focus first on cash flow control before worrying about complex market investing.",
+      "content": "Financial education empowers you to make informed trade-offs. Understanding the relationship between earning, spending, saving, and investing creates immediate peace of mind and long-term autonomy.",
+      "tags": [
+        "Introduction",
+        "Literacy",
+        "Foundation",
+        "Basics"
+      ],
+      "keywords": [
+        "personal finance",
+        "finance basics",
+        "student foundation",
+        "understanding money"
+      ],
+      "date": "2026-01-10"
+    },
+    {
+      "id": "res-intro-2",
+      "category": "Introduction",
+      "type": "AWARENESS",
+      "title": "Where Your Money Goes: Auditing the Hidden Leaks",
+      "description": "Identify subtle lifestyle leaks including recurring convenience markups, delivery charges, and auto-renewals. Gain total clarity on where your income actually disperses each week.",
+      "image": "assets/images/resources/res-5.jpg",
+      "keyTakeaway": "Unconscious spending accounts for up to 25% of student monthly outlays; visibility restores control.",
+      "tips": "Print or view your last 30 days of bank or mobile wallet transactions and highlight mystery charges.",
+      "content": "Most financial stress does not originate from major capital purchases; it stems from unmonitored micro-transactions that quietly bleed capital. Auditing recurring outflows plugs these leaks immediately.",
+      "tags": [
+        "Introduction",
+        "Money Leaks",
+        "Spending Audit",
+        "Awareness"
+      ],
+      "keywords": [
+        "where money goes",
+        "hidden leaks",
+        "spending audit",
+        "convenience fees"
+      ],
+      "date": "2026-01-14"
+    },
+    {
+      "id": "res-intro-3",
+      "category": "Introduction",
+      "type": "FOUNDATION",
+      "title": "Start With the Basics: Income, Outflow & Net Cushion",
+      "description": "A beginner-friendly overview of how net take-home earnings split into mandatory expenditures and discretionary reserves. Understand your bottom-line cushion from day one.",
+      "image": "assets/images/resources/res-6.jpg",
+      "keyTakeaway": "Maintaining even a tiny positive surplus each month shields you from emergency borrowing.",
+      "tips": "Always calculate monthly budget numbers using net take-home earnings rather than gross estimates.",
+      "content": "The fundamental formula of personal wealth is straightforward: Income minus Outflows equals Net Surplus. Growing that surplus through prudent management is the central goal of BudgetBasics.",
+      "tags": [
+        "Introduction",
+        "Income",
+        "Outflow",
+        "Net Surplus"
+      ],
+      "keywords": [
+        "start basics",
+        "inflow outflow",
+        "net cushion",
+        "beginner finance"
+      ],
+      "date": "2026-01-20"
+    },
+    {
+      "id": "res-tips-1",
+      "category": "Money Tips",
+      "type": "TACTICS",
+      "title": "Small Ways to Save More: Practical Student Hacks",
+      "description": "Actionable micro-saving strategies: campus library textbook reserves, batch meal prep, student transport passes, and off-peak utility usage that quietly accumulate substantial reserves.",
+      "image": "assets/images/resources/res-7.jpg",
+      "keyTakeaway": "Saving small amounts consistently creates substantial capital reserves without degrading quality of life.",
+      "tips": "Meal prepping three lunches each week can preserve over Rs. 6,000 monthly for average students.",
+      "content": "Saving money does not require monastic deprivation. Strategic substitution—such as university transit discounts and group grocery purchases—yields massive compounding savings without lifestyle harm.",
+      "tags": [
+        "Money Tips",
+        "Saving Hacks",
+        "Frugal",
+        "Student Living"
+      ],
+      "keywords": [
+        "small ways to save",
+        "save more",
+        "student hacks",
+        "micro savings"
+      ],
+      "date": "2026-02-05",
+      "visualData": {
+        "type": "rule",
+        "title": "Action Rule",
+        "value": "Pay Yourself First"
+      }
+    },
+    {
+      "id": "res-tips-2",
+      "category": "Money Tips",
+      "type": "BEHAVIORAL",
+      "title": "Avoid Impulse Spending: The 24-Hour Cooling-Off Rule",
+      "description": "Defeat algorithm-driven marketing and peer pressure by enforcing a mandatory 24-to-48 hour buffer on non-essential purchases over Rs. 2,000. Give emotional impulses time to cool.",
+      "image": "assets/images/resources/res-8.jpg",
+      "keyTakeaway": "Over 60% of impulse buying desires fade completely when delayed by just 24 hours.",
+      "tips": "Add desired online shopping items to a wish list rather than the immediate checkout cart.",
+      "content": "E-commerce apps are engineered to trigger instant dopamine responses. Introducing artificial friction between impulse and payment restores rational prefrontal cortex decision making.",
+      "tags": [
+        "Money Tips",
+        "Impulse Buying",
+        "Cooling Off",
+        "Psychology"
+      ],
+      "keywords": [
+        "avoid impulse",
+        "impulse spending",
+        "cooling off rule",
+        "delayed gratification"
+      ],
+      "date": "2026-02-08",
+      "visualData": {
+        "type": "rule",
+        "title": "Action Rule",
+        "value": "Wait 24 Hours"
+      }
+    },
+    {
+      "id": "res-tips-3",
+      "category": "Money Tips",
+      "type": "OPTIMIZATION",
+      "title": "Smart Spending Habits: Maximizing Value Per Rupee",
+      "description": "Shift focus from extreme deprivation to intentional spending. Prioritize high-utility purchases that improve education and health while ruthlessly pruning low-value social obligations.",
+      "image": "assets/images/resources/res-9.jpg",
+      "keyTakeaway": "Frugality is not about spending nothing; it is about allocating intentionally to what brings genuine value.",
+      "tips": "Before purchasing, evaluate how many hours of work or study the item cost to earn.",
+      "content": "Smart spenders know that cheap goods often cost more in the long run through frequent replacements. Investing in quality essentials while trimming mindless wants creates superior life satisfaction.",
+      "tags": [
+        "Money Tips",
+        "Smart Spending",
+        "Value Optimization",
+        "Intentionality"
+      ],
+      "keywords": [
+        "smart spending",
+        "habits",
+        "value per rupee",
+        "intentional spending"
+      ],
+      "date": "2026-02-12",
+      "visualData": {
+        "type": "rule",
+        "title": "Action Rule",
+        "value": "Value Per Rupee"
+      }
+    },
+    {
+      "id": "res-resources-1",
+      "category": "Financial Resources",
+      "type": "CHECKLIST",
+      "title": "Student Budget Planning Checklist: Monthly Routine",
+      "description": "A comprehensive periodic audit checklist designed for university schedules: fee schedules, textbook cycles, hostel rent deadlines, and exam-season emergency buffers.",
+      "image": "assets/images/resources/res-10.jpg",
+      "keyTakeaway": "Reviewing commitments on a fixed calendar schedule stops surprise fees and late charges.",
+      "tips": "Check off each item sequentially during the final weekend of every month.",
+      "content": "Student financial schedules differ fundamentally from corporate calendars due to semester peaks, exam fee deadlines, and holiday travel. This checklist provides a tailored academic financial workflow.",
+      "tags": [
+        "Financial Resources",
+        "Checklist",
+        "Routine",
+        "Audit"
+      ],
+      "keywords": [
+        "budget checklist",
+        "planning checklist",
+        "monthly routine",
+        "student audit"
+      ],
+      "date": "2026-01-25"
+    },
+    {
+      "id": "res-resources-2",
+      "category": "Financial Resources",
+      "type": "FRAMEWORK",
+      "title": "Savings Goal Planner: Milestone Tracking Framework",
+      "description": "Structured roadmap templates to divide major milestones—laptop replacement, emergency funds, certification courses—into realistic monthly and weekly savings deposits.",
+      "image": "assets/images/resources/res-11.jpg",
+      "keyTakeaway": "Concrete targets paired with calculated timelines turn abstract hopes into realistic financial outcomes.",
+      "tips": "Always maintain a primary liquid emergency buffer before funding secondary luxury milestones.",
+      "content": "Whether targeting Rs. 20,000 for emergency security or Rs. 85,000 for engineering coursework hardware, this milestone framework maps exact deposit tempos so you never fall behind.",
+      "tags": [
+        "Financial Resources",
+        "Savings Planner",
+        "Milestones",
+        "Goals"
+      ],
+      "keywords": [
+        "goal planner",
+        "savings framework",
+        "milestone tracking",
+        "financial roadmap"
+      ],
+      "date": "2026-01-28"
+    },
+    {
+      "id": "res-resources-3",
+      "category": "Financial Resources",
+      "type": "TEMPLATE",
+      "title": "Monthly Expense Tracker: Category Logging Standards",
+      "description": "Clear taxonomy standards for student expenses across Food, Transport, Academic Supplies, Connectivity, and Discretionary Leisure to ensure clean category separation.",
+      "image": "assets/images/resources/res-12.jpg",
+      "keyTakeaway": "Standardized categorization reveals spending spikes immediately before they turn into deficits.",
+      "tips": "Group miscellaneous cash transactions under 'Other' but review weekly to prevent category inflation.",
+      "content": "Accurate reporting is the foundation of financial control. Standardizing category definitions ensures your monthly expense logs yield actionable comparisons across all university terms.",
+      "tags": [
+        "Financial Resources",
+        "Expense Tracker",
+        "Taxonomy",
+        "Categories"
+      ],
+      "keywords": [
+        "expense tracker",
+        "monthly tracker",
+        "category standards",
+        "logging template"
+      ],
+      "date": "2026-02-02"
+    },
+    {
+      "id": "res-learning-1",
+      "category": "Learning",
+      "type": "CORE CONCEPT",
+      "title": "Budgeting Basics: Zero-Based Allocation Mechanics",
+      "description": "Explore the zero-based budgeting principle where every single rupee is assigned a specific job—tuition, groceries, transit, or savings—before the month begins, ensuring zero unallocated drift.",
+      "image": "assets/images/resources/res-13.jpg",
+      "keyTakeaway": "Giving every rupee a deliberate purpose prevents money from slipping away untracked.",
+      "tips": "A zero-based balance means (Income - Outflows - Savings = 0), not an empty bank balance.",
+      "content": "In zero-based budgeting, unallocated surplus is forbidden. Any leftover money is intentionally assigned to an emergency buffer, milestone fund, or debt reduction, eliminating accidental waste.",
+      "tags": [
+        "Learning",
+        "Zero-Based",
+        "Budgeting Basics",
+        "Allocation"
+      ],
+      "keywords": [
+        "budgeting basics",
+        "zero based",
+        "allocation mechanics",
+        "financial learning"
+      ],
+      "date": "2026-01-05"
+    },
+    {
+      "id": "res-learning-2",
+      "category": "Learning",
+      "type": "PRINCIPLE",
+      "title": "Understanding Income & Expenses: Cash Flow Velocity",
+      "description": "Deep dive into fixed vs variable expenditures and active vs passive inflows. Understand how timing mismatches between income arrival and bill due dates affect student liquidity.",
+      "image": "assets/images/resources/res-14.jpg",
+      "keyTakeaway": "Aligning payment schedules with income arrival prevents temporary liquidity crunches.",
+      "tips": "Negotiate fixed bill payment dates to occur 2-3 days after your primary income deposit date.",
+      "content": "Cash flow velocity measures how rapidly money enters and exits your ecosystem. Knowing when bills mature relative to your allowances avoids costly overdrafts and emergency borrowing.",
+      "tags": [
+        "Learning",
+        "Income",
+        "Expenses",
+        "Cash Flow"
+      ],
+      "keywords": [
+        "income and expenses",
+        "cash flow velocity",
+        "fixed expenses",
+        "variable expenses"
+      ],
+      "date": "2026-01-08"
+    },
+    {
+      "id": "res-learning-3",
+      "category": "Learning",
+      "type": "THEORY",
+      "title": "Saving vs Spending: Opportunity Cost & Compound Growth",
+      "description": "Learn the economic concept of opportunity cost: how spending Rs. 5,000 today on short-term wants trades away future security, investment yields, and emergency resilience.",
+      "image": "assets/images/resources/res-15.jpg",
+      "keyTakeaway": "Every purchase decision is a conscious trade-off between present satisfaction and future independence.",
+      "tips": "Visualize compound interest growth over 5 years when deciding whether to make large discretionary buys.",
+      "content": "Money has time value. When capital is preserved in high-yield vehicles, it generates passive returns that multiply over decades. Understanding this trade-off is the pinnacle of financial maturity.",
+      "tags": [
+        "Learning",
+        "Opportunity Cost",
+        "Saving vs Spending",
+        "Compounding"
+      ],
+      "keywords": [
+        "saving vs spending",
+        "opportunity cost",
+        "compound interest",
+        "future wealth"
+      ],
+      "date": "2026-01-12"
+    },
+    {
+      "id": "res-family-1",
+      "category": "Family",
+      "type": "HOUSEHOLD",
+      "title": "Family Budget Basics: Household Resource Collaboration",
+      "description": "Explore collaborative family budgeting techniques: pooled utility obligations, shared bulk grocery purchasing, and transparent discussion around collective financial priorities.",
+      "image": "assets/images/resources/res-16.jpg",
+      "keyTakeaway": "Open household financial communication prevents misunderstandings and maximizes collective buying power.",
+      "tips": "Hold a 15-minute monthly family money sync to review upcoming shared seasonal expenses.",
+      "content": "Family financial wellness is a team discipline. When parents, students, and siblings align on household utility goals and grocery planning, collective stress drops and overall savings rates surge.",
+      "tags": [
+        "Family",
+        "Household",
+        "Collaboration",
+        "Shared Budget"
+      ],
+      "keywords": [
+        "family budget",
+        "household finance",
+        "family basics",
+        "shared expenses"
+      ],
+      "date": "2026-02-10"
+    },
+    {
+      "id": "res-family-2",
+      "category": "Family",
+      "type": "PEDAGOGY",
+      "title": "Teaching Kids About Money: Practical Early Habits",
+      "description": "Age-appropriate methods for teaching siblings and children foundational money concepts: the three-jar system (Save, Spend, Give), delayed gratification, and earned allowances.",
+      "image": "assets/images/resources/res-17.jpg",
+      "keyTakeaway": "Tangible tactile budgeting experiences in childhood cultivate responsible lifelong financial behavior.",
+      "tips": "Use physical clear jars so children can visually watch currency accumulation grow over weeks.",
+      "content": "Early financial habits dictate adult money psychology. By turning budgeting into an interactive, rewarding game of goal progression, young family members develop natural resilience against impulse buys.",
+      "tags": [
+        "Family",
+        "Kids Finance",
+        "Allowance",
+        "Three Jars"
+      ],
+      "keywords": [
+        "teaching kids",
+        "kids money",
+        "early habits",
+        "money jars"
+      ],
+      "date": "2026-02-14"
+    },
+    {
+      "id": "res-family-3",
+      "category": "Family",
+      "type": "RESILIENCE",
+      "title": "Planning Household Expenses: Sinking Funds for Crises",
+      "description": "How families prepare for irregular cyclical costs—annual vehicle insurance, school registration, appliance repairs, and medical checks—using dedicated household sinking funds.",
+      "image": "assets/images/resources/res-18.jpg",
+      "keyTakeaway": "Anticipating predictable irregular costs removes the crisis feeling from family life.",
+      "tips": "Divide annual household lump sums by 12 and transfer that amount monthly into a designated sinking fund.",
+      "content": "Car maintenance and home appliance failures are not unforeseen surprises; their exact timing is uncertain, but their occurrence is guaranteed. Sinking funds absorb these shocks seamlessly.",
+      "tags": [
+        "Family",
+        "Sinking Funds",
+        "Household Crises",
+        "Emergency Cushion"
+      ],
+      "keywords": [
+        "household expenses",
+        "sinking funds",
+        "irregular expenses",
+        "family planning"
+      ],
+      "date": "2026-02-16"
+    },
+    {
+      "id": "res-nvw-1",
+      "category": "Needs & Wants Visual",
+      "type": "INFOGRAPHIC",
+      "title": "Needs vs Wants: The 4-Quadrant Visual Filter",
+      "description": "A visual classification matrix sorting purchases into Essential Needs, Quality-of-Life Boosters, Discretionary Wants, and Pure Waste Leaks with actionable boundary lines.",
+      "image": "assets/images/resources/res-19.jpg",
+      "keyTakeaway": "Visualizing purchase trade-offs on a 2x2 grid strips emotional justification from impulsive purchases.",
+      "tips": "Ask yourself: 'Will my health, studies, or safety suffer if I do not buy this today?'",
+      "content": "Needs sustain baseline human existence and academic survival. Wants enrich experience but are non-essential. Learning to see where items fall on the visual matrix prevents lifestyle creep.",
+      "tags": [
+        "Needs & Wants Visual",
+        "Matrix",
+        "Classification",
+        "Infographic"
+      ],
+      "keywords": [
+        "needs vs wants",
+        "visual filter",
+        "four quadrants",
+        "smart purchases"
+      ],
+      "date": "2026-01-16",
+      "visualData": {
+        "type": "comparison",
+        "left": "50% Essentials",
+        "right": "30% Lifestyle"
+      }
+    },
+    {
+      "id": "res-nvw-2",
+      "category": "Needs & Wants Visual",
+      "type": "DECISION TOOL",
+      "title": "Smart Purchase Decisions: The Cost-Per-Use Calculation",
+      "description": "Evaluate big-ticket student acquisitions by dividing total retail cost by expected usage days. Learn why a durable laptop has a lower true cost than fast-fashion clothing.",
+      "image": "assets/images/resources/res-20.jpg",
+      "keyTakeaway": "Cost-per-use shifts focus from initial price tags to true long-term value delivered.",
+      "tips": "A Rs. 60,000 laptop used daily for 3 years costs only Rs. 55 per day, making it an exceptional investment.",
+      "content": "Price is what you pay; value is what you get. Evaluating purchases through frequency of practical utility stops you from buying cheap items that break immediately and drain capital repeatedly.",
+      "tags": [
+        "Needs & Wants Visual",
+        "Cost Per Use",
+        "Decision Tool",
+        "Value"
+      ],
+      "keywords": [
+        "smart purchase",
+        "cost per use",
+        "purchase decisions",
+        "durable value"
+      ],
+      "date": "2026-01-18",
+      "visualData": {
+        "type": "comparison",
+        "left": "50% Essentials",
+        "right": "30% Lifestyle"
+      }
+    },
+    {
+      "id": "res-nvw-3",
+      "category": "Needs & Wants Visual",
+      "type": "DIAGNOSTIC",
+      "title": "Before You Buy Checklist: 5-Question Gatekeeper",
+      "description": "A 5-point mental check before checkout: Can I pay in cash today? Do I own a functional equivalent? Will this matter in 30 days? Is it tied to genuine necessity?",
+      "image": "assets/images/resources/res-21.jpg",
+      "keyTakeaway": "Applying a simple friction gatekeeper prevents checkout remorse on 4 out of 5 non-essential buys.",
+      "tips": "Print or save this 5-question visual graphic on your smartphone lock screen as a spending shield.",
+      "content": "Friction is the ultimate defense against marketing manipulation. By establishing a 5-point checkpoint before clicking buy, you preserve cash for what genuinely matters to your future.",
+      "tags": [
+        "Needs & Wants Visual",
+        "Before You Buy",
+        "Gatekeeper",
+        "Checklist"
+      ],
+      "keywords": [
+        "before buy",
+        "purchase checklist",
+        "5 questions",
+        "spending filter"
+      ],
+      "date": "2026-01-22",
+      "visualData": {
+        "type": "comparison",
+        "left": "50% Essentials",
+        "right": "30% Lifestyle"
+      }
+    },
+    {
+      "id": "res-503020-1",
+      "category": "20/30/50 Budget Visual",
+      "type": "FRAMEWORK",
+      "title": "20/30/50 Rule Explained: Proportional Split Visual",
+      "description": "Visual breakdown of the classic balanced allocation: 50% for non-negotiable living needs, 30% for flexible lifestyle wants, and 20% reserved for savings and debt reduction.",
+      "image": "assets/images/resources/res-22.jpg",
+      "keyTakeaway": "Percentages scale dynamically whether earning a modest student stipend or a full graduate salary.",
+      "tips": "If your fixed living needs exceed 50%, compress lifestyle wants first rather than eliminating savings.",
+      "content": "The 20/30/50 allocation framework provides instant intuitive boundaries. By capping lifestyle wants at 30% and locking 20% into savings, financial progress becomes mathematical and certain.",
+      "tags": [
+        "20/30/50 Budget Visual",
+        "Allocation",
+        "Split Visual",
+        "Framework"
+      ],
+      "keywords": [
+        "20/30/50 rule",
+        "50 30 20",
+        "budget visual",
+        "proportional split"
+      ],
+      "date": "2026-01-26",
+      "visualData": {
+        "type": "chart-bar",
+        "label": "50/30/20 Allocation Rule",
+        "segments": [
+          {
+            "name": "Needs (50%)",
+            "pct": 50,
+            "color": "#583397"
+          },
+          {
+            "name": "Wants (30%)",
+            "pct": 30,
+            "color": "#8E44AD"
+          },
+          {
+            "name": "Savings (20%)",
+            "pct": 20,
+            "color": "#D4AF37"
+          }
+        ]
+      }
+    },
+    {
+      "id": "res-503020-2",
+      "category": "20/30/50 Budget Visual",
+      "type": "VISUAL GUIDE",
+      "title": "Needs, Wants & Savings: Color-Coded Target Allocation",
+      "description": "Graphic visualization contrasting healthy proportional allocations against overextended budgets where lifestyle wants exceed 50%, highlighting correction strategies.",
+      "image": "assets/images/resources/res-23.jpg",
+      "keyTakeaway": "Keeping lifestyle wants strictly capped under 30% guarantees headroom for emergency resilience.",
+      "tips": "Color-code your monthly spreadsheet to immediately visualize category boundary violations.",
+      "content": "Visualizing allocation proportions reveals financial imbalances far faster than scanning columns of ledger numbers. This guide demonstrates how to rebalance spending back to baseline.",
+      "tags": [
+        "20/30/50 Budget Visual",
+        "Color Coded",
+        "Targets",
+        "Rebalancing"
+      ],
+      "keywords": [
+        "needs wants savings",
+        "target allocation",
+        "visual guide",
+        "balanced budget"
+      ],
+      "date": "2026-01-30",
+      "visualData": {
+        "type": "chart-bar",
+        "label": "50/30/20 Allocation Rule",
+        "segments": [
+          {
+            "name": "Needs (50%)",
+            "pct": 50,
+            "color": "#583397"
+          },
+          {
+            "name": "Wants (30%)",
+            "pct": 30,
+            "color": "#8E44AD"
+          },
+          {
+            "name": "Savings (20%)",
+            "pct": 20,
+            "color": "#D4AF37"
+          }
+        ]
+      }
+    },
+    {
+      "id": "res-503020-3",
+      "category": "20/30/50 Budget Visual",
+      "type": "CASE STUDY",
+      "title": "Example Monthly Budget: Real Student Cash Flow Model",
+      "description": "A realistic case study modeling a Rs. 50,000 monthly student inflow: Rs. 25,000 for essentials, Rs. 15,000 for social/hobbies, and Rs. 10,000 systematically banked into emergency savings.",
+      "image": "assets/images/resources/res-24.jpg",
+      "keyTakeaway": "Seeing concrete numbers proves that disciplined allocation accommodates both fun and future security.",
+      "tips": "Automate the 20% savings transfer on payday so you only ever look at available funds.",
+      "content": "Abstract percentages become powerful when translated into real rupees. This case study demonstrates how an everyday student balances hostel rent, social outings, and emergency funds seamlessly.",
+      "tags": [
+        "20/30/50 Budget Visual",
+        "Case Study",
+        "Real Numbers",
+        "Student Budget"
+      ],
+      "keywords": [
+        "example monthly budget",
+        "student cash flow",
+        "budget model",
+        "50000 budget"
+      ],
+      "date": "2026-02-04",
+      "visualData": {
+        "type": "chart-bar",
+        "label": "50/30/20 Allocation Rule",
+        "segments": [
+          {
+            "name": "Needs (50%)",
+            "pct": 50,
+            "color": "#583397"
+          },
+          {
+            "name": "Wants (30%)",
+            "pct": 30,
+            "color": "#8E44AD"
+          },
+          {
+            "name": "Savings (20%)",
+            "pct": 20,
+            "color": "#D4AF37"
+          }
+        ]
+      }
+    },
+    {
+      "id": "res-cycle-1",
+      "category": "Money Budget Cycle",
+      "type": "STAGE 1 & 2",
+      "title": "Earn & Plan: Inflow Architecture & Forward Allocation",
+      "description": "The initial phases of the monthly cycle: logging gross earnings, deducting mandatory tax/fees, and establishing predetermined spending ceilings before cash leaves the account.",
+      "image": "assets/images/resources/res-25.jpg",
+      "keyTakeaway": "Directing funds on the first day of receipt removes the temptation of artificial surplus.",
+      "tips": "Never consider an allowance 'free money' until fixed upcoming commitments are deducted.",
+      "content": "The financial cycle begins the moment income is received. Setting category envelopes before incurring outflows guarantees that every financial priority is secured in advance.",
+      "tags": [
+        "Money Budget Cycle",
+        "Earn",
+        "Plan",
+        "Cycle Architecture"
+      ],
+      "keywords": [
+        "earn and plan",
+        "budget cycle",
+        "forward allocation",
+        "inflow planning"
+      ],
+      "date": "2026-02-11",
+      "visualData": {
+        "type": "flowchart",
+        "steps": [
+          "Inflow",
+          "Needs",
+          "Wants",
+          "Savings"
+        ]
+      }
+    },
+    {
+      "id": "res-cycle-2",
+      "category": "Money Budget Cycle",
+      "type": "STAGE 3 & 4",
+      "title": "Spend & Save: Controlled Outflow & Automated Siphoning",
+      "description": "Execution phases of the cycle: tracking active purchases against category allowances while automatically routing savings deposits into locked or high-yield accounts.",
+      "image": "assets/images/resources/res-26.jpg",
+      "keyTakeaway": "Automation bridges the gap between good intentions and actual money banked.",
+      "tips": "Pay yourself first: route savings into a secondary account before funding discretionary wants.",
+      "content": "Mid-month discipline requires monitoring remaining category envelopes. Knowing you have Rs. 3,500 left for dining out allows intentional choices rather than panic at month-end.",
+      "tags": [
+        "Money Budget Cycle",
+        "Spend",
+        "Save",
+        "Automation"
+      ],
+      "keywords": [
+        "spend and save",
+        "controlled outflow",
+        "automated savings",
+        "cycle execution"
+      ],
+      "date": "2026-02-15",
+      "visualData": {
+        "type": "flowchart",
+        "steps": [
+          "Inflow",
+          "Needs",
+          "Wants",
+          "Savings"
+        ]
+      }
+    },
+    {
+      "id": "res-cycle-3",
+      "category": "Money Budget Cycle",
+      "type": "STAGE 5",
+      "title": "Review & Optimize: Month-End Variance Analysis",
+      "description": "The essential closing loop: comparing actual outflows against projections, calculating variances, and rebalancing category caps for the upcoming monthly cycle.",
+      "image": "assets/images/resources/res-27.jpg",
+      "keyTakeaway": "A budget is a living document; monthly calibration turns financial tracking into an effortless reflex.",
+      "tips": "Celebrate staying under budget by allocating a small 10% bonus reward toward personal enjoyment.",
+      "content": "Without review, budgeting remains guesswork. Analyzing variances teaches you where your estimates were too tight or loose, refining your financial intuition month after month.",
+      "tags": [
+        "Money Budget Cycle",
+        "Review",
+        "Optimize",
+        "Variance Analysis"
+      ],
+      "keywords": [
+        "review and optimize",
+        "month end audit",
+        "variance analysis",
+        "budget cycle"
+      ],
+      "date": "2026-02-19",
+      "visualData": {
+        "type": "flowchart",
+        "steps": [
+          "Inflow",
+          "Needs",
+          "Wants",
+          "Savings"
+        ]
+      }
+    },
+    {
+      "id": "res-challenge-1",
+      "category": "Saving Challenges",
+      "type": "SPRINT",
+      "title": "7-Day Spending Detox Challenge: Resetting Purchase Urges",
+      "description": "A 1-week behavioral sprint committing to zero non-essential spending. Cook exclusively at home, utilize free transit options, and uncover how much cash is saved in just seven days.",
+      "image": "assets/images/resources/res-28.jpg",
+      "keyTakeaway": "A short spending freeze breaks automatic buying dopamine loops and reveals true baseline costs.",
+      "tips": "Stock up on pantry staples prior to Day 1 so temptation to order take-out food is eliminated.",
+      "content": "Spending habits often run on autopilot. Pausing all discretionary purchases for 7 days acts as a financial palate cleanser, highlighting just how much money is spent purely out of boredom.",
+      "tags": [
+        "Saving Challenges",
+        "7-Day Challenge",
+        "Detox",
+        "Sprint"
+      ],
+      "keywords": [
+        "7 day challenge",
+        "spending detox",
+        "saving challenge",
+        "no spend sprint"
+      ],
+      "date": "2026-02-21",
+      "visualData": {
+        "type": "milestone",
+        "target": "7-Day Detox",
+        "progress": 100,
+        "note": "Completion Rate: High"
+      }
+    },
+    {
+      "id": "res-challenge-2",
+      "category": "Saving Challenges",
+      "type": "30-DAY PROGRAM",
+      "title": "30-Day Milestone Saving Challenge: The Compound Booster",
+      "description": "A structured monthly program starting with saving Rs. 100 on Day 1, Rs. 200 on Day 2, and scaling up to amass an immediate Rs. 15,000+ starter emergency reserve within 30 days.",
+      "image": "assets/images/resources/res-29.jpg",
+      "keyTakeaway": "Graduated progressive challenges build savings stamina with psychological wins every single day.",
+      "tips": "Keep a physical calendar on your desk and cross off each daily transfer with pride.",
+      "content": "Large savings numbers feel intimidating to students. Breaking milestones into micro-increments that scale gently proves that saving substantial sums is completely achievable on any budget.",
+      "tags": [
+        "Saving Challenges",
+        "30-Day Challenge",
+        "Compound Booster",
+        "Emergency Reserve"
+      ],
+      "keywords": [
+        "30 day challenge",
+        "milestone challenge",
+        "emergency reserve",
+        "daily saving"
+      ],
+      "date": "2026-02-23",
+      "visualData": {
+        "type": "milestone",
+        "target": "30-Day Boost",
+        "progress": 80,
+        "note": "Completion Rate: High"
+      }
+    },
+    {
+      "id": "res-challenge-3",
+      "category": "Saving Challenges",
+      "type": "WEEKEND SPRINT",
+      "title": "No-Spend Weekend Challenge: Zero-Cost Leisure Mastery",
+      "description": "Challenge yourself to spend exactly Rs. 0 from Friday evening to Sunday night. Rediscover campus public spaces, book clubs, cooking challenges, and free educational documentaries.",
+      "image": "assets/images/resources/res-30.jpg",
+      "keyTakeaway": "Enjoyable social connection and restorative leisure do not require commercial price tags.",
+      "tips": "Invite friends or roommates to participate so social pressure works in your favor.",
+      "content": "Weekends are typically the highest-outflow period for students. Conquering a single weekend with zero spend preserves thousands of rupees while fostering creative, non-commercial leisure.",
+      "tags": [
+        "Saving Challenges",
+        "No-Spend Weekend",
+        "Zero-Cost",
+        "Weekend Challenge"
+      ],
+      "keywords": [
+        "no spend challenge",
+        "weekend challenge",
+        "zero spend",
+        "free leisure"
+      ],
+      "date": "2026-02-25",
+      "visualData": {
+        "type": "milestone",
+        "target": "Zero-Cost Weekend",
+        "progress": 65,
+        "note": "Completion Rate: High"
+      }
+    }
+  ]
+}

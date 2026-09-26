@@ -1,0 +1,107 @@
+{
+  "tools": [
+    {
+      "id": "rule-503020",
+      "navId": "tool503020",
+      "title": "50/30/20 Rule",
+      "eyebrow": "ALLOCATION FRAMEWORK",
+      "icon": "bi-pie-chart",
+      "description": "Divide net income into 50% essentials (Needs), 30% lifestyle (Wants), and 20% future security (Savings).",
+      "badge": "Core Guideline"
+    },
+    {
+      "id": "budget-calculator",
+      "navId": "toolBudgetCalc",
+      "title": "Budget Calculator",
+      "eyebrow": "SURPLUS & DEFICIT",
+      "icon": "bi-calculator",
+      "description": "Input real income, planned fixed expenses, flexible expenses, and savings targets to analyze your monthly financial health.",
+      "badge": "Health Analysis"
+    },
+    {
+      "id": "guiding-questions",
+      "navId": "toolGuidingQuestions",
+      "title": "Guiding Questions",
+      "eyebrow": "SELF-ASSESSMENT",
+      "icon": "bi-question-circle",
+      "description": "Answer 5 strategic diagnostic questions to identify your financial posture, key leakage points, and immediate next steps.",
+      "badge": "Interactive Wizard"
+    },
+    {
+      "id": "budget-planner",
+      "navId": "toolBudgetPlanner",
+      "title": "Budget Planner",
+      "eyebrow": "CLIENT-SIDE PLANNER",
+      "icon": "bi-journal-check",
+      "description": "Build and customize your monthly line-item budget table. Add entries, categorize them, and track remaining allocations live.",
+      "badge": "Interactive Workspace"
+    },
+    {
+      "id": "saving-goals",
+      "navId": "toolSavingGoals",
+      "title": "Saving Goals",
+      "eyebrow": "MILESTONE TRACKER",
+      "icon": "bi-bullseye",
+      "description": "Define specific targets, track current funds, calculate time to completion, and see visual progress meters.",
+      "badge": "Progress Meter"
+    }
+  ],
+  "guidingQuestions": [
+    {
+      "id": "q1",
+      "question": "What is your typical monthly net income?",
+      "subtitle": "Include all regular take-home earnings (allowance, salary, stipend, predictable gigs).",
+      "inputType": "number",
+      "placeholder": "e.g. 50000",
+      "field": "income",
+      "hint": "Be conservative: only enter money you are sure to receive."
+    },
+    {
+      "id": "q2",
+      "question": "What are your total essential expenses (Needs)?",
+      "subtitle": "Rent/hostel, basic groceries, utilities, tuition, and required transportation.",
+      "inputType": "number",
+      "placeholder": "e.g. 25000",
+      "field": "needs",
+      "hint": "Items your daily survival or academic commitments rely upon."
+    },
+    {
+      "id": "q3",
+      "question": "What do you typically spend on lifestyle choices (Wants)?",
+      "subtitle": "Cafe visits, food delivery, streaming entertainment, shopping, hobby gear.",
+      "inputType": "number",
+      "placeholder": "e.g. 15000",
+      "field": "wants",
+      "hint": "Be honest about discretionary purchases."
+    },
+    {
+      "id": "q4",
+      "question": "How much do you currently manage to save each month?",
+      "subtitle": "Money set aside into an account or cash envelope that is not spent.",
+      "inputType": "number",
+      "placeholder": "e.g. 10000",
+      "field": "savings",
+      "hint": "Even small recurring sums count toward this total."
+    },
+    {
+      "id": "q5",
+      "question": "What is your primary savings goal right now?",
+      "subtitle": "Select the immediate milestone you are working toward.",
+      "inputType": "select",
+      "options": [
+        "Building an Emergency Fund (Rs. 25,000 - 50,000)",
+        "Tech / Study Equipment (Laptop, tablet, course tools)",
+        "Certification / Course Tuition fees",
+        "Travel or Life Event milestone",
+        "Investing for long-term growth"
+      ],
+      "field": "primaryGoal",
+      "hint": "Focusing on one primary goal prevents dilution of effort."
+    }
+  ],
+  "categories": {
+    "needs": ["Housing / Rent", "Groceries & Staples", "Utilities & Phone", "Required Transit", "Health & Medicines", "Tuition & Books"],
+    "wants": ["Dining Out & Takeaway", "Streaming & Gaming", "Personal Shopping", "Social & Events", "Hobbies & Tech Upgrades"],
+    "savings": ["Emergency Buffer", "Laptop / Tool Goal", "Tuition Sinking Fund", "General Savings"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "curriculum": {
+    "title": "Budgeting Basics for Students",
+    "subtitle": "Master the core components of cash flow before building complex projections.",
+    "pillars": [
+      {
+        "id": "pillar-income",
+        "title": "Income",
+        "tag": "CASH INFLOW",
+        "icon": "bi-cash-coin",
+        "description": "Money received through stipends, hourly jobs, parental allowances, or freelance projects. Always calculate using net take-home pay, not gross projections."
+      },
+      {
+        "id": "pillar-fixed",
+        "title": "Fixed Expenses",
+        "tag": "PREDICTABLE OUTFLOW",
+        "icon": "bi-building-lock",
+        "description": "Obligations that remain constant each billing cycle: apartment or hostel rent, semester tuition, fixed internet subscriptions, and public transit passes."
+      },
+      {
+        "id": "pillar-variable",
+        "title": "Variable Expenses",
+        "tag": "FLEXIBLE OUTFLOW",
+        "icon": "bi-cart3",
+        "description": "Costs that fluctuate depending on daily lifestyle and choices: staple groceries, dining takeaway, utility consumption, books, and social outings."
+      },
+      {
+        "id": "pillar-savings",
+        "title": "Savings & Buffer",
+        "tag": "WEALTH PRESERVATION",
+        "icon": "bi-shield-check",
+        "description": "Money transferred into separate accounts immediately upon income arrival to build an emergency fund, purchase durable tools, or invest for the future."
+      }
+    ],
+    "studentExample": {
+      "scenario": "Undergraduate Student Monthly Budget Profile",
+      "monthlyIncome": 45000,
+      "fixedExpenses": [
+        { "name": "Hostel / Room Share Rent", "amount": 16000 },
+        { "name": "Semester Transport Pass", "amount": 3500 },
+        { "name": "Mobile & Internet Package", "amount": 1500 }
+      ],
+      "variableExpenses": [
+        { "name": "Staple Groceries & Mess Meals", "amount": 9000 },
+        { "name": "Academic Supplies & Printing", "amount": 2000 },
+        { "name": "Discretionary Dining & Coffee", "amount": 4000 }
+      ],
+      "savingsAllocation": [
+        { "name": "Emergency Cushion Reserve", "amount": 5000 },
+        { "name": "Tech Replacement Fund", "amount": 4000 }
+      ],
+      "summary": {
+        "totalIncome": 45000,
+        "totalFixed": 21000,
+        "totalVariable": 15000,
+        "totalSavings": 9000,
+        "remainingBalance": 0,
+        "keyTakeaway": "A balanced zero-based student budget where every single rupee has an assigned purpose before the month begins."
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "tips": [
+    {
+      "id": "tip-1",
+      "category": "Saving Habit",
+      "text": "Pay Yourself First: Transfer at least 15% to 20% of any income directly to your savings account before paying discretionary expenses.",
+      "author": "BudgetBasics Foundation"
+    },
+    {
+      "id": "tip-2",
+      "category": "Mindful Spending",
+      "text": "The 24-Hour Buffer Rule: For any non-essential purchase over Rs. 2,000, wait 24 hours to eliminate impulse dopamine spending.",
+      "author": "Behavioral Finance Standard"
+    },
+    {
+      "id": "tip-3",
+      "category": "Expense Audit",
+      "text": "The Ghost Subscription Check: Review bank statements monthly to cancel forgotten app free trials and unused entertainment tiers.",
+      "author": "Student Cash Flow Guide"
+    },
+    {
+      "id": "tip-4",
+      "category": "Emergency Preparedness",
+      "text": "Starter Emergency Cushion: Aim for a starter emergency reserve of Rs. 15,000 to insulate yourself against sudden device repairs.",
+      "author": "Financial Resilience Standard"
+    },
+    {
+      "id": "tip-5",
+      "category": "50/30/20 Rule",
+      "text": "Essential Needs Ceiling: Ensure that your essential survival costs (housing, groceries, transport) never exceed 50% of net income.",
+      "author": "Macro Allocation Principle"
+    },
+    {
+      "id": "tip-6",
+      "category": "Debt Prevention",
+      "text": "Beware of 'Pay Later' Traps: Zero-interest BNPL schemes encourage lifestyle inflation and commit future income before it is earned.",
+      "author": "Credit Education Advisory"
+    }
+  ]
+}

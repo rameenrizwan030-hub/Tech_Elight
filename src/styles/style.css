@@ -1,0 +1,401 @@
+/* ==========================================================================
+   BUDGETBASICS - CORE DESIGN SYSTEM
+   Theme: Soft Pretty Lavender, Light Purple, Soft Pink-Lavender Undertones,
+   White, Slightly Darker Purple Accents, Dark Lavender for Primary Buttons.
+   Consistent Variables, High-End Micro-Interactions, Zero Emojis.
+   ========================================================================== */
+
+:root {
+  /* Complete Unified Visual Identity Variables */
+  --lavender-primary: #7A54C4;      /* Rich, refined lavender-purple */
+  --lavender-light:   #F3EEFA;      /* Soft soothing pastel lavender */
+  --lavender-soft:    #FAF8FD;      /* Gentle ambient background lavender */
+  --lavender-dark:    #583397;      /* Dark lavender/purple for primary buttons & headings */
+  --purple-accent:    #8E68D9;      /* Vibrant yet soft purple accent */
+  --pink-lavender:    #F7EFFB;      /* Gentle subtle pink-lavender undertone */
+  --white:            #FFFFFF;      /* Clean pure white */
+  --text-primary:     #261D3A;      /* Deep, readable slate-purple text */
+  --text-secondary:   #6B6183;      /* Balanced secondary text */
+
+  /* Component Aliases & Tokens for Seamless Compatibility */
+  --bb-lav-50:  var(--lavender-soft);
+  --bb-lav-100: var(--lavender-light);
+  --bb-lav-200: #E6DCF5;
+  --bb-lav-300: #D5C5EC;
+  --bb-lav-400: #B79FE0;
+  --bb-lav-500: var(--purple-accent);
+  --bb-lav-600: var(--lavender-primary);
+  --bb-lav-700: var(--lavender-dark);
+  --bb-lav-800: #492880;
+  --bb-lav-900: #341A5C;
+
+  --bb-white:       var(--white);
+  --bb-bg-main:     var(--lavender-soft);
+  --bb-bg-subtle:   var(--pink-lavender);
+  --bb-card-bg:     var(--white);
+  --bb-text-main:   var(--text-primary);
+  --bb-text-muted:  var(--text-secondary);
+  --bb-text-subtle: #958BA6;
+  --bb-border:      #E8E0F2;
+  --bb-border-subtle: #F2ECF8;
+  --bb-border-hover:  #CDBEE5;
+
+  /* Functional Status */
+  --bb-success:     #388E67;
+  --bb-success-bg:  #E8F5EF;
+  --bb-warning:     #B7791F;
+  --bb-warning-bg:  #FEF8E7;
+  --bb-danger:      #A8384D;
+  --bb-danger-bg:   #FDEBED;
+
+  /* Shadows & Glows */
+  --bb-radius-sm: 8px;
+  --bb-radius-md: 14px;
+  --bb-radius-lg: 20px;
+  --bb-radius-xl: 28px;
+  --bb-radius-pill: 9999px;
+
+  --bb-shadow-subtle: 0 4px 20px rgba(88, 51, 151, 0.04);
+  --bb-shadow-card:   0 12px 34px rgba(88, 51, 151, 0.07);
+  --bb-shadow-hover:  0 18px 45px rgba(88, 51, 151, 0.12), 0 0 20px rgba(247, 239, 251, 0.8);
+  --bb-shadow-float:  0 20px 50px rgba(88, 51, 151, 0.16);
+  --bb-shadow-glow:   0 0 25px rgba(122, 84, 196, 0.25);
+
+  /* Typography: Headings = Fredoka Bold, Body = Poppins Regular, Navbar & Buttons = Poppins SemiBold, Small Labels = Poppins Medium / SemiBold */
+  --bb-font-heading: 'Fredoka', cursive, system-ui, -apple-system, sans-serif;
+  --bb-font-body:    'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+/* Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--bb-font-body);
+  font-weight: 400;
+  background-color: var(--bb-bg-main);
+  color: var(--bb-text-main);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bb-font-heading);
+  color: var(--bb-text-main);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 0;
+}
+
+p {
+  font-family: var(--bb-font-body);
+  font-weight: 400;
+  color: var(--bb-text-muted);
+  font-size: 0.96rem;
+  margin-bottom: 1rem;
+}
+
+button, input, select, textarea {
+  font-family: var(--bb-font-body);
+}
+
+.btn, .btn-bb-primary, .btn-bb-outline, .btn-bb-subtle {
+  font-family: var(--bb-font-body);
+  font-weight: 600;
+}
+
+small, .small, .bb-eyebrow, .badge, label, .form-label {
+  font-family: var(--bb-font-body);
+  font-weight: 500;
+}
+
+a {
+  color: var(--lavender-dark);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--purple-accent);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Scroll Progress Bar at Top */
+.scroll-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  z-index: 2000;
+}
+
+.scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--lavender-primary), var(--lavender-dark));
+  transition: width 0.1s ease-out;
+}
+
+/* Typography Badges & Eyebrows */
+.bb-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--lavender-dark);
+  background: var(--lavender-light);
+  padding: 5px 12px;
+  border-radius: var(--bb-radius-pill);
+  margin-bottom: 12px;
+  border: 1px solid var(--bb-border);
+}
+
+.bb-eyebrow-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--lavender-primary);
+}
+
+.bb-section-heading {
+  margin-bottom: 48px;
+}
+
+.bb-section-heading.text-center {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bb-section-heading h2 {
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+  line-height: 1.16;
+  margin-bottom: 14px;
+}
+
+.bb-section-heading p {
+  font-size: 1.04rem;
+  color: var(--bb-text-muted);
+  margin-bottom: 0;
+}
+
+/* Card Design System with Soft Lavender Glow */
+.bb-card {
+  background: var(--bb-card-bg);
+  border: 1px solid var(--bb-border);
+  border-radius: var(--bb-radius-lg);
+  padding: 26px;
+  box-shadow: var(--bb-shadow-subtle);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.bb-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--bb-shadow-hover);
+  border-color: var(--bb-border-hover);
+}
+
+.bb-card-flat {
+  background: var(--lavender-soft);
+  border: 1px solid var(--bb-border);
+  border-radius: var(--bb-radius-md);
+  padding: 20px;
+}
+
+/* Buttons with Darker Lavender and Press Ripple */
+.btn-bb-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--lavender-dark);
+  color: var(--white) !important;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 12px 24px;
+  border-radius: var(--bb-radius-md);
+  border: 1px solid var(--lavender-dark);
+  transition: all 0.22s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(88, 51, 151, 0.24);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-bb-primary:hover {
+  background-color: #492880;
+  border-color: #492880;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(88, 51, 151, 0.34);
+}
+
+.btn-bb-primary:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+.btn-bb-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--white);
+  color: var(--lavender-dark) !important;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 12px 24px;
+  border-radius: var(--bb-radius-md);
+  border: 1px solid var(--bb-border);
+  transition: all 0.22s ease;
+  cursor: pointer;
+}
+
+.btn-bb-outline:hover {
+  background-color: var(--lavender-light);
+  border-color: var(--bb-border-hover);
+  color: var(--lavender-dark) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(88, 51, 151, 0.08);
+}
+
+.btn-bb-outline:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+.btn-bb-subtle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--lavender-light);
+  color: var(--lavender-dark) !important;
+  font-weight: 600;
+  font-size: 0.84rem;
+  padding: 8px 16px;
+  border-radius: var(--bb-radius-pill);
+  border: 1px solid var(--bb-border);
+  transition: all 0.2s ease;
+}
+
+.btn-bb-subtle:hover {
+  background: var(--pink-lavender);
+  border-color: var(--bb-border-hover);
+  color: #341A5C !important;
+}
+
+/* Section Spacing */
+.bb-section {
+  padding: 95px 0;
+  position: relative;
+}
+
+.bb-section-alt {
+  background-color: var(--bb-bg-subtle);
+  border-top: 1px solid var(--bb-border-subtle);
+  border-bottom: 1px solid var(--bb-border-subtle);
+}
+
+/* Reveal Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+@keyframes bbFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Back to Top Button (Placed side-by-side with Assistant Launcher in clean bottom dock) */
+.back-to-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--bb-radius-pill);
+  background: var(--white);
+  border: 1.5px solid var(--bb-lav-300);
+  color: var(--lavender-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(88, 51, 151, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.25s ease;
+  z-index: 1055;
+  cursor: pointer;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--lavender-light);
+  color: #341A5C;
+  border-color: var(--bb-border-hover);
+}
+
+/* Form Controls Focus */
+.form-control:focus, .form-select:focus {
+  border-color: var(--lavender-primary);
+  box-shadow: 0 0 0 3px rgba(122, 84, 196, 0.18);
+  outline: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lavender-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bb-lav-300);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lavender-primary);
+}

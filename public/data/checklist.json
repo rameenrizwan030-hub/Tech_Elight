@@ -1,0 +1,40 @@
+{
+  "checklist": [
+    {
+      "id": "chk-income",
+      "title": "I Understand Income",
+      "desc": "I can differentiate between gross income and take-home net income, and I budget strictly based on my reliable net baseline.",
+      "done": false
+    },
+    {
+      "id": "chk-expenses",
+      "title": "I Can Identify Expenses",
+      "desc": "I distinguish between recurring fixed obligations (rent, tuition) and flexible variable spending (groceries, leisure).",
+      "done": false
+    },
+    {
+      "id": "chk-needs-wants",
+      "title": "I Understand Needs vs Wants",
+      "desc": "I apply the 24-hour buffer before discretionary purchases to ensure essential survival needs always take priority.",
+      "done": false
+    },
+    {
+      "id": "chk-503020",
+      "title": "I Understand 50/30/20",
+      "desc": "I know how to divide my monthly cash flow into 50% Needs, 30% Wants, and 20% dedicated Savings or debt reduction.",
+      "done": false
+    },
+    {
+      "id": "chk-goal",
+      "title": "I Have a Savings Goal",
+      "desc": "I have identified a specific target with an estimated timeline, realistic monthly contributions, and an emergency buffer.",
+      "done": false
+    },
+    {
+      "id": "chk-tracking",
+      "title": "I Can Track My Spending",
+      "desc": "I review my transactions weekly to audit recurring leaks, eliminate subscription creep, and record net balance.",
+      "done": false
+    }
+  ]
+}

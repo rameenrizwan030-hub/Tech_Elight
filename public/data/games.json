@@ -1,0 +1,307 @@
+{
+  "needsVsWants": [
+    {
+      "id": 1,
+      "item": "Nutritious Groceries & Cooking Staples",
+      "question": "Is nutritious grocery shopping considered a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Need",
+      "explanation": "Wholesome food and balanced nutrition are biological essentials required for daily energy, physical health, and cognitive function."
+    },
+    {
+      "id": 2,
+      "item": "Daily Takeaway Cafe Latte",
+      "question": "Is ordering a specialty takeaway coffee every morning a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Want",
+      "explanation": "While caffeine or warmth may be desired, brewing coffee at home fulfills hydration at a tiny fraction of the cost, making cafe delivery a discretionary lifestyle want."
+    },
+    {
+      "id": 3,
+      "item": "Monthly Apartment Rent / Student Hostel Fee",
+      "question": "Is paying your monthly room rent or hostel fee a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Need",
+      "explanation": "Safe, stable shelter is a fundamental physiological necessity and a non-negotiable legal commitment."
+    },
+    {
+      "id": 4,
+      "item": "Premium Wireless Noise-Cancelling Headphones",
+      "question": "When your current basic earphones work, is upgrading to flagship headphones a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Want",
+      "explanation": "If your existing audio gear functions for lectures and calls, buying premium luxury headphones is a comfort upgrade."
+    },
+    {
+      "id": 5,
+      "item": "Required University Course Textbooks",
+      "question": "Are mandatory course books and required lab materials a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Need",
+      "explanation": "Academic materials directly mandated to complete your degree or certification fall under essential educational obligations."
+    },
+    {
+      "id": 6,
+      "item": "Multiple Concurrent Video Streaming Subscriptions",
+      "question": "Are paying for three or four entertainment streaming services simultaneously a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Want",
+      "explanation": "Recreational video entertainment is optional. Rotating one service at a time saves significant money without impacting daily living."
+    },
+    {
+      "id": 7,
+      "item": "Prescription Antibiotics & Essential Medicine",
+      "question": "Is purchasing prescribed medication for an illness a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Need",
+      "explanation": "Healthcare and prescription medicines protect your life, recovery, and long-term well-being and must always be prioritized."
+    },
+    {
+      "id": 8,
+      "item": "Electricity, Heating & Basic Water Utility",
+      "question": "Is paying for household electricity and clean running water a Need or a Want?",
+      "options": ["Need", "Want"],
+      "correctAnswer": "Need",
+      "explanation": "Electricity and water are essential infrastructure for hygienic living, lighting, cooking, and temperature control."
+    }
+  ],
+  "challenge503020": [
+    {
+      "id": 1,
+      "title": "Entry-Level Campus Intern",
+      "income": 40000,
+      "targetNeeds": 20000,
+      "targetWants": 12000,
+      "targetSavings": 8000,
+      "description": "You earn a monthly stipend of Rs. 40,000. Balance your budget into 50% Needs, 30% Wants, and 20% Savings."
+    },
+    {
+      "id": 2,
+      "title": "Junior Software Associate",
+      "income": 60000,
+      "targetNeeds": 30000,
+      "targetWants": 18000,
+      "targetSavings": 12000,
+      "description": "Your starting net salary is Rs. 60,000. Allocate your funds according to the 50/30/20 guideline."
+    },
+    {
+      "id": 3,
+      "title": "Mid-Level Professional",
+      "income": 85000,
+      "targetNeeds": 42500,
+      "targetWants": 25500,
+      "targetSavings": 17000,
+      "description": "With a monthly take-home income of Rs. 85,000, model the 50/30/20 split to maximize future wealth preservation."
+    }
+  ],
+  "savingGoalGame": [
+    {
+      "id": 1,
+      "title": "University Coding Laptop",
+      "cost": 60000,
+      "startingSaved": 10000,
+      "description": "You need a dependable laptop for computer science coursework costing Rs. 60,000 with Rs. 10,000 already saved.",
+      "options": [
+        {
+          "label": "Steady Pace",
+          "monthly": 5000,
+          "months": 10,
+          "advice": "Highly sustainable contribution that easily accommodates typical student allowances."
+        },
+        {
+          "label": "Accelerated Track",
+          "monthly": 10000,
+          "months": 5,
+          "advice": "Rapid progress: reaches the goal in just 5 months, but requires trimming discretionary dining out."
+        },
+        {
+          "label": "Low-Impact Track",
+          "monthly": 2500,
+          "months": 20,
+          "advice": "Gentle on cash flow, but takes nearly two years to acquire the required machine."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Starter Emergency Reserve",
+      "cost": 30000,
+      "startingSaved": 6000,
+      "description": "Establish a liquid safety buffer of Rs. 30,000 to handle unexpected dental, transit, or repair surprises.",
+      "options": [
+        {
+          "label": "Fast Cushion",
+          "monthly": 8000,
+          "months": 3,
+          "advice": "Completes the emergency buffer in only 3 months, offering rapid peace of mind."
+        },
+        {
+          "label": "Balanced Plan",
+          "monthly": 4000,
+          "months": 6,
+          "advice": "Steady 6-month timeline that comfortably aligns with a standard 20% savings rule."
+        },
+        {
+          "label": "Micro-Saver",
+          "monthly": 2000,
+          "months": 12,
+          "advice": "Takes 12 months. Useful if income is temporarily tight, but leaves you vulnerable longer."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Professional Cloud Certification",
+      "cost": 40000,
+      "startingSaved": 5000,
+      "description": "Fund industry-recognized developer certification exam vouchers and official preparation materials.",
+      "options": [
+        {
+          "label": "Targeted Sprint",
+          "monthly": 7000,
+          "months": 5,
+          "advice": "Timed perfectly to prepare and sit for the exam within a single academic semester."
+        },
+        {
+          "label": "Standard Cadence",
+          "monthly": 5000,
+          "months": 7,
+          "advice": "Smooth 7-month horizon with plenty of runway for comprehensive study."
+        },
+        {
+          "label": "Extended Plan",
+          "monthly": 3500,
+          "months": 10,
+          "advice": "Minimal monthly impact, but may delay career advancement opportunities."
+        }
+      ]
+    }
+  ],
+  "budgetDetective": [
+    {
+      "id": 1,
+      "caseName": "Ali's Overspending Mystery",
+      "scenario": "Ali earns Rs. 55,000 net monthly, but finishes each month with zero buffer. Examine his monthly ledger below:",
+      "income": 55000,
+      "ledger": [
+        {"item": "Apartment Share & Electricity", "amount": 20000, "category": "Housing", "nature": "Need"},
+        {"item": "Basic Cooking Staples & Milk", "amount": 9000, "category": "Groceries", "nature": "Need"},
+        {"item": "Public Transit Bus Card", "amount": 3000, "category": "Transit", "nature": "Need"},
+        {"item": "Unused Gym Membership + 4 Video Apps", "amount": 6500, "category": "Subscriptions", "nature": "Want (Leak)"},
+        {"item": "Food Delivery Apps (12 orders/month)", "amount": 13500, "category": "Dining Out", "nature": "Want (Leak)"},
+        {"item": "Transferred to Savings", "amount": 3000, "category": "Savings", "nature": "Savings (Only 5.4%!)"}
+      ],
+      "questions": [
+        {
+          "question": "Which category represents the largest discretionary leak in Ali's budget?",
+          "options": ["Food Delivery Apps (Rs. 13,500)", "Apartment Share (Rs. 20,000)", "Transit Card (Rs. 3,000)"],
+          "correctAnswer": "Food Delivery Apps (Rs. 13,500)",
+          "explanation": "Food delivery apps are charging premium restaurant prices and courier surcharges, accounting for nearly 25% of Ali's entire take-home pay."
+        },
+        {
+          "question": "If Ali cooks at home more often and cancels unused subscriptions, how much could he realistically reclaim each month?",
+          "options": ["Around Rs. 10,000 - 12,000", "Less than Rs. 1,000", "Nothing without moving home"],
+          "correctAnswer": "Around Rs. 10,000 - 12,000",
+          "explanation": "Cutting 8 takeout orders saves Rs. 8,000, and trimming unused apps saves Rs. 4,000—freeing up Rs. 12,000 each month to boost his savings rate to 27%."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "caseName": "Zara's Tech Upgrade Dilemma",
+      "scenario": "Zara earns Rs. 65,000 net monthly. She wants to start an emergency fund, but feels squeezed every payday. Examine her ledger:",
+      "income": 65000,
+      "ledger": [
+        {"item": "Hostel Rent & Meal Plan", "amount": 26000, "category": "Essentials", "nature": "Need"},
+        {"item": "Smartphone Buy-Now-Pay-Later Installment", "amount": 16000, "category": "Debt", "nature": "Want (Debt Trap)"},
+        {"item": "Daily Peak Rideshare Cabs to Work", "amount": 13000, "category": "Transport", "nature": "Want (Surge Leak)"},
+        {"item": "Course Materials & Cloud Lab", "amount": 4000, "category": "Education", "nature": "Need"},
+        {"item": "Weekend Coffee & Brunches", "amount": 6000, "category": "Social", "nature": "Want"},
+        {"item": "Actual Savings Buffer", "amount": 0, "category": "Savings", "nature": "Deficit Risk (0% Saved)"}
+      ],
+      "questions": [
+        {
+          "question": "What is the primary factor preventing Zara from building an emergency reserve?",
+          "options": ["High-interest installment debt & daily rideshares", "Course materials fee", "Her basic hostel rent"],
+          "correctAnswer": "High-interest installment debt & daily rideshares",
+          "explanation": "Smartphone installment (Rs. 16,000) combined with daily peak cab rides (Rs. 13,000) consume Rs. 29,000 (45% of her net income) on lifestyle choices."
+        },
+        {
+          "question": "Which immediate habit shift would have the highest immediate impact on Zara's cash flow?",
+          "options": ["Switching to university transit shuttle instead of peak cabs", "Stopping course material purchases", "Eating only once a day"],
+          "correctAnswer": "Switching to university transit shuttle instead of peak cabs",
+          "explanation": "Switching from peak cab surges to an affordable transit pass immediately recaptures Rs. 9,000 to Rs. 10,000 each month without harming health or studies."
+        }
+      ]
+    }
+  ],
+  "smartSpendingQuiz": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of the '24-Hour Rule' in mindful budgeting?",
+      "options": [
+        "To delay non-essential purchases and curb emotional impulse spending",
+        "To ensure all bills are paid exactly within 24 hours of arrival",
+        "To check store discounts every single day",
+        "To spend your daily earnings before midnight"
+      ],
+      "correctAnswer": "To delay non-essential purchases and curb emotional impulse spending",
+      "explanation": "The 24-Hour Rule introduces a cooling-off period between the emotional impulse to buy and the financial transaction, reducing buyer's remorse."
+    },
+    {
+      "id": 2,
+      "question": "According to the 50/30/20 guideline, what percentage of your net income should go to essential Needs?",
+      "options": ["50%", "30%", "20%", "70%"],
+      "correctAnswer": "50%",
+      "explanation": "50% is the recommended ceiling for essential obligations including housing, groceries, utilities, tuition, and required transit."
+    },
+    {
+      "id": 3,
+      "question": "What does the financial principle 'Pay Yourself First' mean?",
+      "options": [
+        "Transferring money to your savings on the day income arrives before spending on other items",
+        "Buying yourself a luxury reward on payday before paying rent",
+        "Waiting until the last day of the month to save whatever cash is left",
+        "Borrowing from friends to fund personal hobbies"
+      ],
+      "correctAnswer": "Transferring money to your savings on the day income arrives before spending on other items",
+      "explanation": "'Pay Yourself First' treats your future security as an essential bill that must be funded automatically on payday rather than relying on leftover change."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is considered a genuine financial emergency?",
+      "options": [
+        "A sudden medical prescription or broken prescription glasses",
+        "A flash weekend 50% discount sale on designer sneakers",
+        "Buying tickets to a sold-out concert with friends",
+        "Upgrading a working phone to the newly released model"
+      ],
+      "correctAnswer": "A sudden medical prescription or broken prescription glasses",
+      "explanation": "Genuine emergencies must be unexpected, urgent, and strictly necessary for physical health, essential mobility, or primary obligations."
+    },
+    {
+      "id": 5,
+      "question": "Why can 'Buy Now Pay Later' (BNPL) schemes be dangerous for student budgets?",
+      "options": [
+        "They obscure total costs and encourage purchasing items you cannot currently afford in cash",
+        "They automatically donate your money to charity",
+        "They only work in foreign currencies",
+        "They prevent you from receiving discounts"
+      ],
+      "correctAnswer": "They obscure total costs and encourage purchasing items you cannot currently afford in cash",
+      "explanation": "BNPL micro-installments disconnect the pain of paying from the acquisition of goods, frequently leading to accumulated debt commitments."
+    },
+    {
+      "id": 6,
+      "question": "What is the ideal first milestone when establishing an emergency buffer?",
+      "options": [
+        "A starter liquid reserve of Rs. 15,000 to Rs. 25,000",
+        "Five years of total living expenses locked in property",
+        "A zero-rupee balance while relying on credit cards",
+        "Investing everything in speculative cryptocurrencies"
+      ],
+      "correctAnswer": "A starter liquid reserve of Rs. 15,000 to Rs. 25,000",
+      "explanation": "A starter fund of Rs. 15,000 to Rs. 25,000 covers typical student shocks (medical visit, phone repair, textbook change) without incurring high-interest debt."
+    }
+  ]
+}

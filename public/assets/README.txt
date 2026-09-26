@@ -1,0 +1,1 @@
+The visual resource gallery is implemented with CSS-generated visual panels so no external image files are required.

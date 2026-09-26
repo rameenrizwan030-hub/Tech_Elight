@@ -1,0 +1,630 @@
+/* ==========================================================================
+   BUDGETBASICS - RESPONSIVE STYLES
+   Breakpoints: 1200px, 992px, 768px, 576px, 425px, 375px, 320px
+   No horizontal overflow, mobile-friendly touch targets, adaptive chatbot
+   ========================================================================== */
+
+/* Large Laptops / Small Desktops (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .bb-gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .bb-resource-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bb-footer-top {
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+/* Tablets Landscape & Small Laptops (max-width: 991px) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: var(--bb-white);
+    border: 1px solid var(--bb-border);
+    border-radius: var(--bb-radius-lg);
+    padding: 18px;
+    margin-top: 12px;
+    box-shadow: var(--bb-shadow-float);
+  }
+
+  .bb-hero-section {
+    padding: 115px 0 70px;
+  }
+
+  .bb-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .bb-hero-lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bb-hero-actions {
+    justify-content: center;
+  }
+
+  .bb-hero-highlights {
+    justify-content: center;
+  }
+
+  .bb-float-badge-1 {
+    left: 10px;
+    top: 20px;
+  }
+
+  .bb-float-badge-2 {
+    right: 10px;
+    bottom: 20px;
+  }
+
+  .bb-about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .bb-about-img {
+    height: 380px;
+  }
+
+  .bb-learning-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bb-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bb-comparison-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .bb-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .bb-footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+}
+
+/* Tablets Portrait (max-width: 768px) */
+@media (max-width: 768px) {
+  .bb-section {
+    padding: 70px 0;
+  }
+
+  .bb-section-heading h2 {
+    font-size: 2rem;
+  }
+
+  .bb-split-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-checklist-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-learning-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-about-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .bb-about-copy-col {
+    align-items: center;
+    text-align: center;
+  }
+
+  .bb-about-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .bb-tool-container {
+    padding: 24px 18px;
+  }
+
+  /* Clean side-by-side floating dock on mobile */
+  .back-to-top {
+    bottom: 16px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .bb-assistant-launcher {
+    bottom: 16px;
+    right: 58px;
+    padding: 6px 12px 6px 8px;
+  }
+
+  .bb-chat-window {
+    right: 12px;
+    left: 12px;
+    bottom: 68px;
+    width: auto;
+    max-width: 100%;
+    height: 520px;
+  }
+}
+
+/* Mobile Screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .bb-hero-heading {
+    font-size: 2.2rem;
+  }
+
+  .bb-hero-lead {
+    font-size: 0.98rem;
+  }
+
+  .bb-hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-bb-primary,
+  .btn-bb-outline {
+    width: 100%;
+  }
+
+  .bb-hero-highlights {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .bb-float-badge {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+
+  .bb-float-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 0.95rem;
+  }
+
+  .bb-float-content strong {
+    font-size: 0.9rem;
+  }
+
+  .bb-about-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-quiz-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .bb-quiz-btn-group {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .bb-footer-top {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .bb-footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bb-launcher-subtitle {
+    display: none;
+  }
+
+  .bb-chat-window {
+    height: 82vh;
+    max-height: 82vh;
+  }
+}
+
+/* Small Mobile Screens (320px - 375px) */
+@media (max-width: 375px) {
+  .bb-hero-heading {
+    font-size: 1.95rem;
+  }
+
+  .bb-brand-text {
+    font-size: 1.1rem;
+  }
+
+  .bb-logo-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .bb-tool-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .bb-split-card strong {
+    font-size: 1.35rem;
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA + MOBILE NAVIGATION HARDENING
+   Keeps the existing BudgetBasics content/design while preventing image crop
+   and mobile dropdown overflow at every viewport size.
+   ========================================================================== */
+
+/* Card/media images: consistent frame, no distortion, no accidental crop. */
+.bb-learn-thumb,
+.bb-gallery-thumb,
+.bb-resource-thumb,
+.bb-nvw-center-thumb {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 3 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--bb-lav-100);
+}
+
+.bb-learn-thumb img,
+.bb-gallery-thumb img,
+.bb-resource-thumb img,
+.bb-nvw-center-img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* Preserve complete feature/illustration images instead of cropping them. */
+.bb-about-illustration-frame {
+  width: 100%;
+}
+
+.bb-about-illustration-img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+/* The logo is content, not a decorative crop. */
+.bb-footer-brand-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.bb-brand-img {
+  width: 150px !important;
+  height: auto !important;
+  max-width: 150px !important;
+  object-fit: contain;
+  display: block;
+}
+
+/* Learning modal media uses the same safe image behavior. */
+.bb-learn-modal-image-frame {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  min-height: 0;
+  border-radius: var(--bb-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--bb-shadow-subtle);
+  background: var(--bb-lav-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-learn-modal-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* Never let responsive content create page-level horizontal scrolling. */
+html,
+body,
+#root,
+main,
+.bb-section,
+.bb-hero-section,
+.bb-footer {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+@supports not (overflow: clip) {
+  html,
+  body,
+  #root,
+  main,
+  .bb-section,
+  .bb-hero-section,
+  .bb-footer {
+    overflow-x: hidden;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile/tablet navbar + dropdowns
+   -------------------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+  .bb-navbar {
+    height: auto;
+    padding-left: max(10px, env(safe-area-inset-left));
+    padding-right: max(10px, env(safe-area-inset-right));
+  }
+
+  .bb-navbar-pill {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .bb-navbar-collapse-container {
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: min(72dvh, 620px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+  }
+
+  .bb-navbar-collapse-container .bb-navbar-nav,
+  .bb-navbar-collapse-container .nav-item,
+  .bb-navbar-collapse-container .bb-nav-link {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .bb-navbar-collapse-container .nav-item {
+    position: relative;
+  }
+
+  /* Bootstrap/Popper uses absolute positioning on desktop. On mobile the
+     submenu becomes part of the normal menu flow, so it cannot escape the
+     viewport. */
+  .bb-navbar-collapse-container .dropdown-menu {
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    float: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    max-height: min(42dvh, 360px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 2px 0 4px !important;
+    padding: 6px;
+    box-sizing: border-box;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .bb-navbar-collapse-container .dropdown-menu.show {
+    display: block;
+  }
+
+  .bb-navbar-collapse-container .bb-dropdown-item {
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    box-sizing: border-box;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+    padding: 11px 12px;
+  }
+
+  .bb-navbar-collapse-container .bb-dropdown-item span {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .bb-navbar {
+    top: max(8px, env(safe-area-inset-top));
+  }
+
+  .bb-navbar-pill {
+    padding: 6px 10px 6px 12px;
+    border-radius: 9999px;
+    min-height: 46px;
+  }
+
+  .bb-brand {
+    min-width: 0;
+    max-width: calc(100% - 52px);
+  }
+
+  .bb-brand-img {
+    width: 125px !important;
+    height: auto !important;
+    max-width: 125px !important;
+  }
+
+  .bb-navbar-collapse-container {
+    top: calc(100% + 8px);
+    border-radius: 20px;
+    padding: 12px;
+    max-height: calc(100dvh - 84px);
+  }
+
+  .bb-navbar-collapse-container .dropdown-menu {
+    max-height: 40dvh;
+  }
+
+  .bb-navbar-collapse-container .bb-dropdown-item {
+    min-height: 46px;
+    padding: 12px 10px;
+  }
+
+  /* Use the available width rather than fixed image heights on small phones. */
+  .bb-learn-thumb,
+  .bb-gallery-thumb,
+  .bb-resource-thumb,
+  .bb-nvw-center-thumb {
+    aspect-ratio: 3 / 2;
+  }
+}
+
+@media (max-width: 375px) {
+  .bb-navbar-pill {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .bb-brand-img {
+    width: 110px !important;
+    height: auto !important;
+    max-width: 110px !important;
+  }
+
+  .bb-navbar-collapse-container {
+    padding: 10px;
+  }
+}
+
+/* Full-image rule: hover effects may not enlarge media beyond its safe frame. */
+.bb-learn-card:hover .bb-learn-thumb img,
+.bb-gallery-card:hover .bb-gallery-thumb img,
+.bb-resource-card:hover .bb-resource-thumb img,
+.bb-nvw-center-card:hover .bb-nvw-center-img {
+  transform: none;
+}
+
+
+/* Resources section padding on tablet & mobile */
+@media (max-width: 768px) {
+  #resources.bb-section {
+    padding-top: 42px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  #resources.bb-section {
+    padding-top: 30px;
+    padding-bottom: 36px;
+  }
+
+  .bb-info-strip {
+    padding: 10px 0;
+  }
+
+  .bb-info-item {
+    gap: 8px;
+  }
+
+  .bb-info-icon-box {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .bb-tip-rotator {
+    padding: 6px 12px;
+    gap: 8px;
+  }
+
+  .bb-tip-content {
+    min-width: 0;
+    font-size: 0.78rem;
+  }
+
+  .bb-tip-badge {
+    font-size: 0.64rem;
+    padding: 2px 7px;
+    flex-shrink: 0;
+  }
+
+  .bb-planning-nav {
+    gap: 6px;
+    margin-bottom: 22px;
+  }
+
+  .bb-planning-nav .bb-planning-tab {
+    padding: 7px 12px;
+    font-size: 0.80rem;
+    gap: 6px;
+  }
+
+  .bb-explore-search input {
+    height: 38px;
+    min-height: 38px;
+    font-size: 0.85rem;
+  }
+
+  .bb-filter-scroll-track {
+    overflow-x: visible;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap;
+    padding-bottom: 2px;
+  }
+
+  .bb-filter-scroll-track .bb-planning-tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
+/* Mobile landscape: safe vertical bounds and smooth scrolling */
+@media (max-height: 520px) and (orientation: landscape) {
+  .bb-navbar {
+    top: 4px;
+  }
+
+  .bb-navbar-pill {
+    min-height: 34px;
+    padding: 2px 10px;
+  }
+
+  .bb-navbar-collapse-container {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .bb-hero-section {
+    padding: 70px 0 40px;
+  }
+
+  .bb-section {
+    padding: 40px 0;
+  }
+}

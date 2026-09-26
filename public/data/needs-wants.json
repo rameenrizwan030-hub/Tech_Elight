@@ -1,0 +1,64 @@
+{
+  "curriculum": {
+    "definitionNeeds": "Non-negotiable goods and services required for biological survival, physical health, shelter, and completing fundamental academic or employment obligations.",
+    "definitionWants": "Purchases that improve lifestyle comfort, aesthetic preference, entertainment, or status, but whose absence does not halt health, housing, or academic continuity.",
+    "decisionGuide": [
+      {
+        "step": 1,
+        "question": "Is this purchase required for survival, shelter, basic health, or academic enrollment?",
+        "ifYes": "Classify as an essential NEED.",
+        "ifNo": "Proceed to Step 2."
+      },
+      {
+        "step": 2,
+        "question": "Does a basic, affordable alternative already satisfy this requirement?",
+        "ifYes": "The upgrade delta is a discretionary WANT. Buy the basic version.",
+        "ifNo": "Proceed to Step 3."
+      },
+      {
+        "step": 3,
+        "question": "Can I wait 48 hours without compromising my health, safety, or academic performance?",
+        "ifYes": "Classify as a WANT and enforce the 48-hour cooling period.",
+        "ifNo": "Classify as a time-sensitive NEED."
+      }
+    ],
+    "quickQuiz": [
+      {
+        "id": 1,
+        "item": "Prescription eye lenses or spectacles",
+        "category": "Need",
+        "rationale": "Clear vision is an indispensable medical and academic requirement to perform coursework and daily tasks safely."
+      },
+      {
+        "id": 2,
+        "item": "Daily Rs. 450 flavored cold brew coffee",
+        "category": "Want",
+        "rationale": "While caffeine is a preference, home-brewed coffee or water meets hydration needs at 90% lower cost."
+      },
+      {
+        "id": 3,
+        "item": "Monthly high-speed home internet for academic coursework",
+        "category": "Need",
+        "rationale": "Reliable connectivity is mandatory for modern university portals, research submissions, and remote classes."
+      },
+      {
+        "id": 4,
+        "item": "Flagship smartphone upgrade while current phone functions normally",
+        "category": "Want",
+        "rationale": "Desiring newer camera sensors is a lifestyle wish when your existing device handles calls and coursework."
+      },
+      {
+        "id": 5,
+        "item": "Nutritious grocery staples: rice, legumes, produce, and milk",
+        "category": "Need",
+        "rationale": "Baseline nutritional sustenance is non-negotiable for human health, energy, and cognitive focus."
+      },
+      {
+        "id": 6,
+        "item": "Front-row tickets to a touring music festival",
+        "category": "Want",
+        "rationale": "Live entertainment is enjoyable, but your shelter, health, and academic requirements do not depend on it."
+      }
+    ]
+  }
+}

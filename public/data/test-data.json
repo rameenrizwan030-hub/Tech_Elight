@@ -1,0 +1,62 @@
+{
+  "budgetCalculator": [
+    {
+      "input": 50000,
+      "expected": {
+        "needs": 25000,
+        "wants": 15000,
+        "savings": 10000
+      }
+    },
+    {
+      "input": 100000,
+      "expected": {
+        "needs": 50000,
+        "wants": 30000,
+        "savings": 20000
+      }
+    },
+    {
+      "input": -5000,
+      "expected": "validation error"
+    }
+  ],
+  "savingsGoal": [
+    {
+      "target": 100000,
+      "current": 30000,
+      "monthly": 10000,
+      "expectedRemaining": 70000,
+      "expectedMonths": 7
+    },
+    {
+      "target": 50000,
+      "current": 50000,
+      "monthly": 5000,
+      "expectedRemaining": 0,
+      "expectedMonths": 0
+    },
+    {
+      "target": 100000,
+      "current": 30000,
+      "monthly": 0,
+      "expected": "validation error"
+    }
+  ],
+  "expensePlanner": [
+    {
+      "category": "Food",
+      "amount": 500,
+      "expectedTotal": 500
+    },
+    {
+      "category": "Transport",
+      "amount": 200,
+      "expectedTotal": 700
+    }
+  ],
+  "forms": [
+    "empty feedback fields => validation",
+    "valid feedback => confirmation message"
+  ]
+}

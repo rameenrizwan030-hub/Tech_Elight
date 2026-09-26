@@ -1,0 +1,44 @@
+{
+  "mistakes": [
+    {
+      "id": "mistake-1",
+      "topic": "Impulse Buying & Sales Hype",
+      "icon": "bi-bag-x",
+      "situation": "Purchasing clothing, gadgets, or accessories impulsively during flash discount sales simply because they are advertised at a discount.",
+      "whyProblem": "Discounts deceive buyers into believing they saved money, when in reality 100% of the money spent was an unplanned cash outflow for a non-essential want.",
+      "betterAction": "Enforce a mandatory 48-hour cooling period. Place the item on a wish list. If you still genuinely require it after 48 hours and have discretionary funds allocated, purchase it mindfully."
+    },
+    {
+      "id": "mistake-2",
+      "topic": "Small Repeated Expenses (The Latte Effect)",
+      "icon": "bi-cup-hot",
+      "situation": "Buying daily Rs. 400 specialty drinks, canteen snacks, or ride-share trips for short walkable distances without logging them.",
+      "whyProblem": "Micro-transactions feel insignificant in isolation, but spending Rs. 600 daily accumulates to over Rs. 18,000 monthly—often exceeding a student's entire monthly savings target.",
+      "betterAction": "Set a dedicated weekly petty cash or digital wallet allowance (e.g., Rs. 2,000/week) strictly for casual daily conveniences. When the wallet balance hits zero, hold off until the next week."
+    },
+    {
+      "id": "mistake-3",
+      "topic": "Late Fee Penalties & Due Date Neglect",
+      "icon": "bi-clock-history",
+      "situation": "Postponing utility bills, hostel dues, library fines, or phone payments until after deadlines, incurring recurring late penalty surcharges.",
+      "whyProblem": "Late fees are pure deadweight loss—you forfeit money for zero return, and consistent late repayments negatively affect future financial credibility.",
+      "betterAction": "Synchronize all recurring payment dates to the first week of the month immediately following your income or stipend deposit. Enable automated calendar reminders 3 days ahead."
+    },
+    {
+      "id": "mistake-4",
+      "topic": "Unused Recurring Subscriptions",
+      "icon": "bi-credit-card-2-front",
+      "situation": "Signing up for 14-day free trials of streaming platforms, cloud tools, or gym tiers with credit/debit card credentials and never canceling.",
+      "whyProblem": "Companies build their business models on billing inertia. An unreviewed subscription list quietly leeches Rs. 3,000 to Rs. 7,000 each month for services you rarely open.",
+      "betterAction": "Audit your active subscription list on the 1st of every month. Adopt a 'One In, One Out' policy: never activate a new media service without canceling an existing one."
+    },
+    {
+      "id": "mistake-5",
+      "topic": "Spending Without a Pre-Allocated Plan",
+      "icon": "bi-compass",
+      "situation": "Treating your bank account balance as disposable cash and attempting to save 'whatever remains' at the end of the month.",
+      "whyProblem": "Parkinson's Law dictates that expenses naturally expand to consume all available resources. Without intentional pre-allocation, month-end remaining balance is almost always zero.",
+      "betterAction": "Execute the 'Pay Yourself First' doctrine: the moment income arrives, immediately transfer your 20% savings quota into a dedicated secondary account before spending a single rupee."
+    }
+  ]
+}

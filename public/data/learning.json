@@ -1,0 +1,190 @@
+{
+  "modules": [
+    {
+      "id": "what-is-income",
+      "title": "Income",
+      "eyebrow": "EARNING FOUNDATION",
+      "icon": "bi-cash-stack",
+      "image": "assets/images/income-hd.jpg",
+      "description": "Income is the total cash inflow you receive over a specific period, serving as the starting fuel for every financial plan.",
+      "keyPoints": [
+        "Gross income is what you earn before deductions; net income is the take-home money you can actually budget.",
+        "Income can be active (time-for-money like salary, hourly wages, tutoring) or passive (dividends, creator royalties, interest).",
+        "Irregular income (freelance, gig work, gifts) requires a conservative baseline budgeting strategy."
+      ],
+      "examples": [
+        "Monthly stipend or allowance from family: Rs. 15,000",
+        "Part-time campus internship or tutoring: Rs. 20,000",
+        "Occasional freelance web or design gig: Rs. 12,000"
+      ],
+      "tips": [
+        "Always base your monthly budget strictly on your guaranteed net income, never on anticipated bonuses.",
+        "Track every inflow in a single ledger to understand your true monthly earning baseline.",
+        "If your income fluctuates, create a low-earning month baseline and store the surplus in high-earning months."
+      ],
+      "deepDive": {
+        "summary": "Understanding your cash inflows is the essential starting point for all financial stability. Without knowing your predictable take-home income, any spending plan is guesswork.",
+        "rules": [
+          "Differentiate between reliable recurrent income and one-time windfalls.",
+          "Deduct taxes and mandatory fees before deciding your spending allocations.",
+          "Keep an income tracking habit to spot patterns in irregular earnings."
+        ]
+      }
+    },
+    {
+      "id": "what-are-expenses",
+      "title": "Expenses",
+      "eyebrow": "OUTFLOW MANAGEMENT",
+      "icon": "bi-receipt",
+      "image": "assets/images/expenses-hd.jpg",
+      "description": "Expenses are the money spent to purchase goods, services, and maintain daily living, categorized into fixed and variable outflows.",
+      "keyPoints": [
+        "Fixed expenses remain constant every cycle (rent, hostel fees, recurring internet subscription).",
+        "Variable expenses change with consumption (food, entertainment, public transit, personal care).",
+        "Hidden micro-transactions (daily cafe runs, unattended app subscriptions) silently erode savings."
+      ],
+      "examples": [
+        "Fixed: Semester hostel fee & utility split (Rs. 18,000/month)",
+        "Variable: Groceries, dining with friends & canteen snacks (Rs. 8,500/month)",
+        "Periodic: Textbooks, semester supplies & exam registrations (Rs. 4,000/quarter)"
+      ],
+      "tips": [
+        "Audit subscriptions every 90 days and cancel anything unused for over 30 days.",
+        "Log every purchase on the day it happens to eliminate end-of-month surprises.",
+        "Group variable expenses into weekly caps rather than one large monthly pool."
+      ],
+      "deepDive": {
+        "summary": "Expenses are not inherently bad; uncontrolled expenses are what destabilize your financial health. Categorizing your outflows gives you the power to optimize without depriving yourself.",
+        "rules": [
+          "Fixed expenses should ideally stay within 40-50% of your net income.",
+          "Focus cost-cutting on top two expenditure categories for maximum impact.",
+          "Use the cash-envelope or sub-account method to cap variable categories."
+        ]
+      }
+    },
+    {
+      "id": "common-money-mistakes",
+      "title": "Common Money Mistakes",
+      "eyebrow": "PITFALL PREVENTION",
+      "icon": "bi-exclamation-triangle",
+      "image": "assets/images/mistakes-hd.jpg",
+      "description": "Avoid the frequent behavioral traps that undermine financial progress for students and young professionals.",
+      "keyPoints": [
+        "Spending first and attempting to save whatever remains at month-end.",
+        "Failing to track small daily micro-expenses that accumulate into massive leakages.",
+        "Relying on short-term high-interest borrowing or Buy Now Pay Later (BNPL) schemes.",
+        "Not establishing an emergency fund before taking speculative risks."
+      ],
+      "examples": [
+        "The Subscription Trap: Paying Rs. 1,800/mo for three streaming services watched once a month.",
+        "The Upgrade Cycle: Replacing a working smartphone every release cycle on high-interest installments.",
+        "Zero Cushion: Facing a sudden Rs. 8,000 repair cost with zero savings and borrowing from peers."
+      ],
+      "tips": [
+        "Conduct a weekly 5-minute money check-in to catch budget drifts early.",
+        "Treat Buy Now Pay Later with extreme caution; debt is debt regardless of marketing slogans.",
+        "Compare prices and check student discounts before committing to major software or hardware purchases."
+      ],
+      "deepDive": {
+        "summary": "Financial mistakes in early adulthood carry disproportionate compounding penalties. Recognizing these behavioral blind spots transforms financial anxiety into confident mastery.",
+        "rules": [
+          "Rule 1: If you cannot buy it twice in cash without touching savings, you cannot comfortably afford it.",
+          "Rule 2: Never lend money you cannot afford to write off as an unconditional gift.",
+          "Rule 3: Financial literacy is a daily habit, not a one-time test."
+        ]
+      }
+    },
+    {
+      "id": "what-are-savings",
+      "title": "Saving",
+      "eyebrow": "WEALTH PRESERVATION",
+      "icon": "bi-piggy-bank",
+      "image": "assets/images/savings-hd.jpg",
+      "description": "Savings is the unspent portion of income preserved for future goals, emergency security, and long-term peace of mind.",
+      "keyPoints": [
+        "Paying yourself first ensures savings happen automatically rather than relying on whatever scraps are left over.",
+        "Emergency reserves protect you from debt when surprise expenses strike.",
+        "Targeted sinking funds turn overwhelming future purchases into manageable monthly increments."
+      ],
+      "examples": [
+        "Starter emergency fund: Rs. 25,000 kept in a liquid, high-yield account",
+        "Sinking fund for annual certification exam: Rs. 2,000 saved per month for 6 months",
+        "Laptop upgrade goal: Rs. 5,000 monthly contribution toward a Rs. 60,000 target"
+      ],
+      "tips": [
+        "Automate your transfer to savings on the day income arrives.",
+        "Keep your emergency fund separated from your everyday transactional account.",
+        "Start small; even 5% or 10% consistent savings builds the neural habit of wealth preservation."
+      ],
+      "deepDive": {
+        "summary": "Saving is an active financial decision, not a passive byproduct. Developing a high savings rate early in your career creates exponential financial freedom through compounding and peace of mind.",
+        "rules": [
+          "Target at least 3 months of basic living expenses before investing aggressively.",
+          "Never treat credit cards or loans as a substitute for an emergency fund.",
+          "Celebrate milestones when reaching 25%, 50%, and 100% of your targets."
+        ]
+      }
+    },
+    {
+      "id": "needs-vs-wants",
+      "title": "Needs vs Wants",
+      "eyebrow": "DECISION FRAMEWORK",
+      "icon": "bi-signpost-split",
+      "image": "assets/images/needs-wants-comparison.jpg",
+      "description": "A core cognitive skill distinguishing biological and functional essentials from lifestyle comfort and luxury upgrades.",
+      "keyPoints": [
+        "Needs are non-negotiable for health, basic shelter, nutrition, and meeting basic academic or job commitments.",
+        "Wants enrich life and bring joy, but survival and legal obligations do not depend on them.",
+        "Lifestyle creep gradually reclassifies luxury wants as perceived necessities."
+      ],
+      "examples": [
+        "Need: Nutritious home-cooked meals and staple groceries vs. Want: Weekend food deliveries",
+        "Need: Reliable transit card to attend university vs. Want: Daily rideshare surges",
+        "Need: A functional laptop capable of coursework vs. Want: The flagship high-tier gaming rig"
+      ],
+      "tips": [
+        "Use the 24-Hour Rule: Wait a full day before purchasing any non-essential item over Rs. 2,000.",
+        "Ask yourself: 'Would my life, health, or academic progress halt without this tomorrow?'",
+        "Budget for wants deliberately so you enjoy them completely guilt-free."
+      ],
+      "deepDive": {
+        "summary": "Living frugally does not mean eliminating all enjoyment. Rather, it means spending lavishly on things you genuinely care about while ruthlessly cutting back on things you do not.",
+        "rules": [
+          "Never borrow money or swipe credit to finance a want.",
+          "Identify emotional spending triggers (stress, peer pressure, boredom).",
+          "Re-evaluate recurring subscriptions as optional wants rather than utility needs."
+        ]
+      }
+    },
+    {
+      "id": "emergency-savings",
+      "title": "Emergency Savings",
+      "eyebrow": "RISK RESILIENCE",
+      "icon": "bi-shield-check",
+      "image": "assets/images/emergency-hd.jpg",
+      "description": "Create an impenetrable safety cushion that protects your life plans from unexpected medical, family, or equipment shocks.",
+      "keyPoints": [
+        "An emergency fund is insurance, not an investment; prioritize liquidity and zero volatility.",
+        "Aim for a progressive milestone strategy: start with Rs. 10,000, then 1 month of needs, then 3 months.",
+        "Clear criteria define what constitutes an emergency: unexpected, urgent, and strictly necessary."
+      ],
+      "examples": [
+        "True Emergency: Sudden medical prescription, broken laptop screen during exams, urgent family travel.",
+        "Not an Emergency: Flash weekend sale, concert tickets, upgrading shoes for a party."
+      ],
+      "tips": [
+        "Store the buffer in a dedicated savings account without a debit card linked to digital payment apps.",
+        "Replenish your buffer immediately after a genuine emergency withdrawal before resuming discretionary spending.",
+        "Keep 10-15% of your buffer in accessible cash at home for sudden localized outages."
+      ],
+      "deepDive": {
+        "summary": "Having an emergency fund is the single biggest psychological shift in personal finance. It turns a potential life crisis into a mere temporary inconvenience.",
+        "rules": [
+          "Never invest emergency funds in volatile stocks, crypto, or locked fixed deposits with penalties.",
+          "Review your target buffer annually as your living costs and responsibilities evolve.",
+          "Maintain absolute honesty when assessing whether a cost is a genuine emergency."
+        ]
+      }
+    }
+  ]
+}
